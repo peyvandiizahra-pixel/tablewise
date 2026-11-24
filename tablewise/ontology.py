@@ -14,7 +14,7 @@ from .discover import exact_text, name_tokens, stem_tokens
 
 MISSING_WORDS = ["", "null", "none", "n/a", "na", "nan", "-", "--", "unknown", "?", "not known", "not recorded"]
 BOOL_TRUE, BOOL_FALSE = ["true", "yes", "y", "1"], ["false", "no", "n", "0"]
-NUMBER_RE = r"^[£$€]?\s*-?(0|[1-9][\d,]*)(\.\d+)?\s*[A-Za-z%]{0,8}$"   # '£1,200.50', '15 mins', '-10' (not '0738...')
+NUMBER_RE = r"^(?:[£$€]|(?i:GBP|USD|EUR))?\s*-?(0|[1-9][\d,]*)(\.\d+)?\s*[A-Za-z%]{0,8}$"   # also 'GBP 12.00'   # '£1,200.50', '15 mins', '-10' (not '0738...')
 EMAIL_RE = r"[^@\s]+@[^@\s]+\.[A-Za-z]{2,}"
 PHONE_RE = r"\+?[\d\s().-]{10,24}"
 NAME_VALUE_RE = r"((Dr|Mr|Mrs|Ms|Miss|Prof)\.? )?[A-Z][a-z'-]+( [A-Z][a-z'-]+){1,3}"   # 'Dr Sarah Jones', 'Tom Hall'
@@ -55,6 +55,7 @@ UNIT_GROUPS = [
     {"usd": 1, "cents": .01},
     {"eur": 1},
 ]
+ID_VALUE_RE = r"[A-Za-z]{1,6}[-_/]?[A-Za-z]{0,4}[-_/]?\d{2,}"
 DAY_MONTH_PAIRS = [("%d/%m/%Y", "%m/%d/%Y"), ("%d-%m-%Y", "%m-%d-%Y"), ("%d/%m/%y", "%m/%d/%y"),
                    ("%d/%m/%Y %H:%M", "%m/%d/%Y %H:%M")]
 DOSE = r"(\d+(?:\.\d+)?)\s*(?:mg|mcg|µg|ug|g|ml|l|%|iu|units?)(?![A-Za-z])"
@@ -232,9 +233,12 @@ def understand_column(t, c, s, bq_type, prof_row, role):
                             has_time=any("%H" in f or f == "ISO" for f in formats))
             elif prof_row["distinct_format"] <= 30:
                 spec["type"] = "category"
+    if spec["type"] in ("text", "category") and role == "column" and bq_type == "STRING" and len(v) \
+            and prof_row["distinct_format"] > 30 and v.str.fullmatch(ID_VALUE_RE).mean() >= .9:
+        spec["type"] = "identifier"           # 'SKU-0012', 'ORD000123': codes, even when nothing links to them
     if spec["type"] == "number":
         nums = pd.to_numeric(v, errors="coerce") if bq_type != "STRING" else pd.to_numeric(
-            v.str.replace(r"[£$€,\s]", "", regex=True).str.extract(r"^(-?\d+(?:\.\d+)?)")[0], errors="coerce")
+            v.str.replace(r"(?i)^(GBP|USD|EUR)", "", regex=True).str.replace(r"[£$€,\s]", "", regex=True).str.extract(r"^(-?\d+(?:\.\d+)?)")[0], errors="coerce")
         neg = v[nums < 0]
         if len(neg):
             spec["negatives"] = {"count": int(len(neg)), "examples": {str(k): int(n) for k, n in neg.value_counts().head(5).items()}}
