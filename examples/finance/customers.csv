@@ -1,0 +1,802 @@
+customer_id,full_name,email,phone,date_of_birth,postcode,segment,home_branch,joined_on
+CUS00001,Leila Evans,user0@example.com,07738 504390,08/11/1950,B2 4QA,Small Business,4,28/03/2022
+CUS00002,Nora Brown,user1@example.com,07120 157334,14 Jan 1986,CR0 2AB,Small Business,1,20220921
+CUS00003,Chloe Davies,user2@example.com,07325 515228,09/09/1999,CR0 2AB,Retail,5,08/12/2022
+CUS00004,Mohammed Brown,user3@example.com,07696 901170,05/04/1991,CR0 2AB,Premier,1,27 Apr 2024
+CUS00005,Sara Hughes,user4@example.com,07144 560997,1956-12-02,CR0 2AB,Premier,4,2025-07-20
+CUS00006,Ben Clarke,user5@example.com,07155 750303,15/02/1959,B2 4QA,Retail,5,29/08/2021
+CUS00007,Oliver Walker,user6@example.com,07344 361440,20/08/2000,B2 4QA,Retail,1,2021-07-28
+CUS00008,Chloe Khan,user7@example.com,07328 146115,1980-02-09,NW1 7AB,Small Business,4,2021-07-07
+CUS00009,Chloe Walker,user8@example.com,07263 715511,18/05/1999,CR0 2AB,Retail,2,01/09/2025
+CUS00010,Ben Davies,user9@example.com,07975 281960,22/05/2002,B2 4QA,Premier,4,22 May 2021
+CUS00011,Hassan Brown,user10@example.com,07422 106462,30/06/1954,NW1 7AB,retail,4,02/05/2026
+CUS00012,Yusuf Taylor,user11@example.com,07987 955531,1978-10-02,B2 4QA,Retail,2,29/01/2022
+CUS00013,Ben Khan,user12@example.com,07566 418427,13 Sep 1966,CR0 2AB,Small Business,2,2021-12-11
+CUS00014,Ben Evans,user13@example.com,07528 731822,26 Aug 1996,B2 4QA,SME,5,27/12/2024
+CUS00015,Jack Walker,user14@example.com,07358 619623,04 Jun 1984,LS1 4DY,Premier,4,21/03/2024
+CUS00016,Ella Davies,user15@example.com,07169 354728,08/11/1999,B2 4QA,Retail,2,08/01/2024
+CUS00017,Yusuf Patel,user16@example.com,07793 508730,04/08/1954,NW1 7AB,Small Business,5,23 Aug 2021
+CUS00018,Tom Green,user17@example.com,07791 853365,11 Feb 1984,B2 4QA,Small Business,4,30 Mar 2026
+CUS00019,Daniel Hughes,user18@example.com,07698 332152,1977-05-12,LS1 4DY,Small Business,3,19/01/2025
+CUS00020,Mohammed Davies,user19@example.com,07523 424175,13 Aug 1968,M1 1AE,sme,3,26/11/2025
+CUS00021,Tom Clarke,user20@example.com,07508 846349,25/08/1991,NW1 7AB,sme,1,11/01/2025
+CUS00022,Yusuf Brown,user21@example.com,07596 123515,24 Oct 1982,B2 4QA,Premier,2,17 Jun 2025
+CUS00023,Zahra Hughes,user22@example.com,07911 355213,1967-12-20,LS1 4DY,retail,1,2025-08-09
+CUS00024,Reza Walker,user23@example.com,07189 281893,1978-03-12,M1 1AE,sme,4,17/07/2022
+CUS00025,Leila Wilson,user24@example.com,07274 475805,08 Sep 1986,NW1 7AB,sme,3,23/11/2021
+CUS00026,Yusuf Wilson,user25@example.com,07488 295614,03/03/1953,LS1 4DY,Retail,5,09/03/2023
+CUS00027,Mohammed Patel,user26@example.com,07107 404821,26/02/1976,LS1 4DY,Premier,1,02 Mar 2024
+CUS00028,Hassan Green,user27@example.com,07505 688811,13/02/2003,CR0 2AB,Premier,5,18/10/2023
+CUS00029,Hassan Clarke,user28@example.com,07471 220467,29/11/1989,M1 1AE,Premier,5,30/09/2024
+CUS00030,Yusuf Patel,user29@example.com,07443 659677,1955-03-07,B2 4QA,Retail,5,27/02/2021
+CUS00031,Sara Wright,user30@example.com,07992 504328,1954-05-24,M1 1AE,Retail,2,25 Jul 2024
+CUS00032,Leila Wilson,user31@example.com,07443 522781,2003-07-01,B2 4QA,SME,5,15/05/2026
+CUS00033,Jack Clarke,user32@example.com,07766 168626,02/05/2000,LS1 4DY,sme,2,04/05/2025
+CUS00034,Daniel Walker,user33@example.com,07226 542789,12 Sep 1994,LS1 4DY,SME,2,2025-01-11
+CUS00035,Farhan Roberts,user34@example.com,07945 468309,06/12/1968,M1 1AE,retail,1,04/11/2024
+CUS00036,Ella Wright,user35@example.com,07667 356834,29/01/1963,LS1 4DY,Retail,1,29/03/2026
+CUS00037,Oliver Brown,user36@example.com,07496 300483,1996-04-24,B2 4QA,Premier,3,22 May 2025
+CUS00038,Chloe Roberts,user37@example.com,07578 397362,1968-02-02,NW1 7AB,SME,2,30 Apr 2024
+CUS00039,Leila Smith,user38@example.com,07452 348695,16 Mar 1987,NW1 7AB,Retail,3,2023-02-06
+CUS00040,Zahra Wright,user39@example.com,07546 136611,09/09/1989,M1 1AE,Premier,2,24/01/2025
+CUS00041,Yusuf Wilson,user40@example.com,07385 796542,31/01/1955,LS1 4DY,sme,1,22/07/2022
+CUS00042,Chloe Clarke,user41@example.com,07125 458005,30/09/1953,B2 4QA,Premier,1,29/04/2025
+CUS00043,Isla Wright,user42@example.com,07924 263466,05 May 1976,M1 1AE,retail,4,26/08/2025
+CUS00044,Chloe Brown,user43@example.com,07347 840159,16 Apr 2000,NW1 7AB,retail,2,26/04/2023
+CUS00045,Jack Wilson,user44@example.com,07232 197130,24/02/1973,M1 1AE,Retail,1,26/11/2025
+CUS00046,Jack Taylor,user45@example.com,07301 382767,18/08/1963,CR0 2AB,sme,1,20 Jun 2021
+CUS00047,Mohammed Ahmadi,user46@example.com,07657 975569,14 Feb 1985,M1 1AE,retail,4,31/12/2020
+CUS00048,Priya Smith,user47@example.com,07906 234002,03 Feb 1984,LS1 4DY,Premier,4,14/04/2024
+CUS00049,Farhan Davies,user48@example.com,07668 564842,1970-01-15,CR0 2AB,SME,2,11/11/2020
+CUS00050,Reza Brown,user49@example.com,07578 976940,12/10/1967,LS1 4DY,Retail,4,01/09/2025
+CUS00051,Grace Patel,user50@example.com,07914 944040,25/07/1988,NW1 7AB,Retail,3,15/12/2023
+CUS00052,Ella Khan,user51@example.com,07345 266956,05 Apr 1960,LS1 4DY,Retail,2,03/07/2023
+CUS00053,Nora Taylor,user52@example.com,07476 470062,15/12/1960,LS1 4DY,Premier,2,09/04/2025
+CUS00054,Reza Clarke,user53@example.com,07321 857560,14 Jan 1997,B2 4QA,Premier,5,29/11/2021
+CUS00055,Farhan Wilson,user54@example.com,07514 495201,14/12/1993,CR0 2AB,Retail,5,07/04/2023
+CUS00056,Nora Lewis,user55@example.com,07744 708952,06 May 1958,LS1 4DY,SME,4,2025-01-18
+CUS00057,Ella Walker,user56@example.com,07313 411693,1977-03-07,CR0 2AB,Premier,4,13 Apr 2024
+CUS00058,Tom Lewis,user57@example.com,07587 629352,24 Jan 1968,LS1 4DY,sme,2,01/09/2022
+CUS00059,Oliver Smith,user58@example.com,07309 338313,20 May 1970,CR0 2AB,Small Business,1,2022-08-24
+CUS00060,Nora Khan,user59@example.com,07978 574682,1952-11-27,B2 4QA,Small Business,3,2022-02-26
+CUS00061,Ella Clarke,user60@example.com,07791 237305,13/02/1950,B2 4QA,Retail,5,28/08/2021
+CUS00062,Farhan Evans,user61@example.com,07823 373426,01 Dec 1976,CR0 2AB,retail,2,19/11/2020
+CUS00063,Hassan Khan,user62@example.com,07710 561737,03/06/1981,CR0 2AB,retail,3,10/12/2023
+CUS00064,Amira Wright,user63@example.com,07701 485871,26/07/1979,LS1 4DY,Retail,1,2022-08-21
+CUS00065,Yusuf Green,user64@example.com,07647 358212,02 Nov 1959,M1 1AE,Retail,2,12/11/2021
+CUS00066,Isla Patel,user65@example.com,07513 737747,24/03/1956,CR0 2AB,SME,4,31/01/2024
+CUS00067,Amira Evans,user66@example.com,07622 322866,1958-08-01,NW1 7AB,Retail,1,2021-11-02
+CUS00068,Oliver Smith,user67@example.com,07228 887147,23/06/1964,LS1 4DY,retail,1,07 Nov 2021
+CUS00069,Zahra Roberts,user68@example.com,07225 810782,1953-03-22,B2 4QA,sme,3,25/09/2024
+CUS00070,Ella Brown,user69@example.com,07625 195912,20/01/1987,B2 4QA,Small Business,5,04/05/2022
+CUS00071,Priya Taylor,user70@example.com,07655 993237,06 Apr 1987,B2 4QA,Retail,5,20210217
+CUS00072,Nora Taylor,user71@example.com,07376 871687,03/11/1956,LS1 4DY,sme,5,20230512
+CUS00073,Nora Davies,user72@example.com,07890 901964,1982-04-01,CR0 2AB,Retail,5,17 Jan 2023
+CUS00074,Reza Taylor,user73@example.com,07494 130111,19791002,CR0 2AB,Premier,2,2023-03-31
+CUS00075,Ben Hughes,user74@example.com,07773 853116,1977-03-21,CR0 2AB,Premier,1,29 Jul 2023
+CUS00076,Chloe Hughes,user75@example.com,07681 252116,1959-07-23,LS1 4DY,SME,3,13 Jun 2023
+CUS00077,Priya Green,user76@example.com,07418 115729,1963-09-25,M1 1AE,sme,5,2022-09-20
+CUS00078,Daniel Roberts,user77@example.com,07499 845227,03/02/1979,B2 4QA,Premier,1,22 Mar 2023
+CUS00079,Zahra Brown,user78@example.com,07188 828407,28 Dec 2000,CR0 2AB,Retail,4,10 Apr 2025
+CUS00080,Daniel Ahmadi,user79@example.com,07281 913839,01 Dec 1982,LS1 4DY,SME,5,2021-12-24
+CUS00081,Yusuf Evans,user80@example.com,07971 342813,22/03/1986,B2 4QA,Premier,4,12 Apr 2025
+CUS00082,Tom Davies,user81@example.com,07428 297461,10/07/1971,M1 1AE,Premier,5,01/11/2023
+CUS00083,Mohammed Ahmadi,user82@example.com,07778 214254,1958-07-10,M1 1AE,Premier,1,2023-11-07
+CUS00084,Chloe Hughes,user83@example.com,07169 689289,25/10/1993,CR0 2AB,Retail,2,17/01/2023
+CUS00085,Zahra Taylor,user84@example.com,07470 944292,27/07/1970,LS1 4DY,Retail,3,13/04/2022
+CUS00086,Ella Lewis,user85@example.com,07612 895296,1963-10-15,NW1 7AB,Retail,4,10 Jan 2023
+CUS00087,Mohammed Smith,n/a,07404 302190,1988-01-15,NW1 7AB,Premier,4,05 Nov 2023
+CUS00088,Reza Davies,user87@example.com,07167 853631,1976-03-11,NW1 7AB,retail,1,12/01/2021
+CUS00089,Daniel Wright,user88@example.com,07418 192211,26/07/1957,CR0 2AB,Retail,4,20/03/2023
+CUS00090,Priya Wright,user89@example.com,07331 402585,1970-12-27,CR0 2AB,Retail,2,2024-09-27
+CUS00091,Reza Patel,user90@example.com,07229 956509,18 Jan 1972,NW1 7AB,Retail,5,2023-06-08
+CUS00092,Chloe Evans,user91@example.com,07833 518353,19/10/1958,CR0 2AB,Premier,5,17 May 2023
+CUS00093,Daniel Roberts,user92@example.com,07389 473186,28/03/1977,CR0 2AB,Premier,3,2026-01-28
+CUS00094,Isla Wright,user93@example.com,07513 985379,2003-02-06,LS1 4DY,retail,5,29/05/2023
+CUS00095,Farhan Ahmadi,user94@example.com,07575 912643,26/06/1978,B2 4QA,Retail,4,22 Dec 2020
+CUS00096,Grace Smith,user95@example.com,07743 759156,11/07/1986,NW1 7AB,Premier,2,27/04/2021
+CUS00097,Ella Ahmadi,user96@example.com,07981 238588,14/04/1963,LS1 4DY,Retail,4,22/09/2025
+CUS00098,Sara Patel,user97@example.com,07383 284961,27/07/1963,CR0 2AB,Premier,3,13/07/2023
+CUS00099,Chloe Lewis,user98@example.com,07130 484388,12/04/1968,NW1 7AB,SME,3,2023-05-20
+CUS00100,Sara Smith,user99@example.com,07795 938222,1979-09-14,NW1 7AB,Small Business,3,06/10/2023
+CUS00101,Farhan Smith,user100@example.com,07779 824517,04/04/1950,CR0 2AB,sme,5,2021-07-08
+CUS00102,Hassan Roberts,user101@example.com,07459 532611,21 May 1953,LS1 4DY,Premier,1,15 Oct 2022
+CUS00103,Hassan Hughes,user102@example.com,07125 791078,1956-03-12,M1 1AE,Premier,4,09/06/2025
+CUS00104,Hassan Taylor,user103@example.com,07820 833215,1967-11-10,NW1 7AB,retail,1,24/06/2023
+CUS00105,Hassan Hughes,user104@example.com,07573 360488,1982-10-20,M1 1AE,Premier,3,18/05/2023
+CUS00106,Sara Wright,user105@example.com,07967 519982,30/04/1981,CR0 2AB,Retail,1,03 Jan 2022
+CUS00107,Mohammed Ahmadi,user106@example.com,07460 759373,09 Jul 1994,LS1 4DY,Retail,4,2021-06-11
+CUS00108,Amira Lewis,user107@example.com,07200 290481,26/09/1954,LS1 4DY,retail,4,17/07/2023
+CUS00109,Reza Lewis,user108@example.com,07398 220829,20 Jan 1989,LS1 4DY,Small Business,4,2023-07-29
+CUS00110,Grace Smith,user109@example.com,07377 738495,2003-04-03,B2 4QA,Small Business,2,18/08/2024
+CUS00111,Priya Smith,user110@example.com,07851 329839,08 Feb 1956,B2 4QA,SME,5,18/04/2025
+CUS00112,Mohammed Clarke,user111@example.com,07829 810324,28/10/1970,CR0 2AB,Small Business,1,29/03/2023
+CUS00113,Hassan Davies,user112@example.com,07141 524319,20/05/2000,NW1 7AB,Retail,3,10/03/2025
+CUS00114,Hassan Wright,user113@example.com,07140 738089,2001-08-02,LS1 4DY,Premier,1,2021-08-06
+CUS00115,Grace Roberts,user114@example.com,07265 551624,03/03/1985,B2 4QA,Small Business,2,02/10/2021
+CUS00116,Grace Wright,user115@example.com,07302 893729,27/09/1980,B2 4QA,sme,5,03/12/2021
+CUS00117,Zahra Ahmadi,user116@example.com,07410 263776,25 Oct 1957,NW1 7AB,SME,1,2025-10-25
+CUS00118,Reza Smith,user117@example.com,07489 874188,15/05/2003,NW1 7AB,retail,2,12 Apr 2024
+CUS00119,Chloe Davies,user118@example.com,07140 679175,19770505,NW1 7AB,Premier,1,20/12/2021
+CUS00120,Nora Hughes,user119@example.com,07418 760032,2004-03-04,CR0 2AB,retail,3,12/06/2023
+CUS00121,Reza Green,user120@example.com,07753 288399,25 Aug 1992,NW1 7AB,sme,4,2025-08-15
+CUS00122,Oliver Roberts,user121@example.com,07678 980243,16/01/1991,NW1 7AB,sme,3,2023-10-04
+CUS00123,Chloe Taylor,user122@example.com,07333 697861,15/06/1957,LS1 4DY,Retail,1,2024-08-09
+CUS00124,Priya Taylor,user123@example.com,07609 851445,1952-12-03,B2 4QA,Retail,2,21/04/2021
+CUS00125,Chloe Green,user124@example.com,07633 367081,25/04/1974,B2 4QA,sme,2,24/09/2022
+CUS00126,Farhan Evans,user125@example.com,07545 802686,22/07/1986,B2 4QA,Premier,4,10/03/2022
+CUS00127,Amira Evans,user126@example.com,07800 703219,1960-10-30,NW1 7AB,retail,3,2022-01-17
+CUS00128,Yusuf Wilson,user127@example.com,07457 101018,14/09/1983,LS1 4DY,Retail,4,28 Jun 2025
+CUS00129,Ella Wright,user128@example.com,07214 974800,16/12/1984,M1 1AE,Retail,4,2024-11-01
+CUS00130,Mohammed Evans,user129@example.com,07882 914191,06 Jul 1982,CR0 2AB,Small Business,4,16/07/2021
+CUS00131,Tom Evans,user130@example.com,07771 400244,30/09/2004,B2 4QA,Small Business,1,24/11/2022
+CUS00132,Amira Ahmadi,user131@example.com,07143 995638,07/09/1977,CR0 2AB,Retail,2,2025-03-31
+CUS00133,Daniel Evans,user132@example.com,07699 736891,1964-07-21,NW1 7AB,Small Business,2,2025-06-07
+CUS00134,Oliver Hughes,user133@example.com,07812 149646,1950-01-12,NW1 7AB,Premier,3,27 Oct 2021
+CUS00135,Grace Ahmadi,user134@example.com,07350 814152,22 Jan 1972,B2 4QA,Retail,1,19/12/2021
+CUS00136,Isla Hughes,user135@example.com,07213 138934,10/08/1981,LS1 4DY,Retail,3,01/07/2023
+CUS00137,Jack Khan,user136@example.com,07910 434025,11 Feb 1962,B2 4QA,Premier,5,2022-10-17
+CUS00138,Yusuf Roberts,user137@example.com,07315 914869,29 Apr 1987,NW1 7AB,retail,4,16/05/2022
+CUS00139,Isla Walker,user138@example.com,07453 885933,04 Nov 1989,CR0 2AB,Premier,2,2022-10-05
+CUS00140,Ella Brown,user139@example.com,07188 537503,18/06/1982,M1 1AE,Retail,1,12/08/2021
+CUS00141,Mohammed Wilson,user140@example.com,07811 880070,1996-11-05,CR0 2AB,retail,4,05 Dec 2021
+CUS00142,Yusuf Walker,user141@example.com,07503 883875,1994-09-09,CR0 2AB,retail,2,22/02/2023
+CUS00143,Sara Evans,user142@example.com,07730 968999,1955-02-11,LS1 4DY,Retail,1,03 Nov 2025
+CUS00144,Tom Evans,user143@example.com,07326 394823,04 Jan 2000,M1 1AE,Small Business,4,24/02/2023
+CUS00145,Sara Ahmadi,user144@example.com,07639 194302,24/12/1995,CR0 2AB,retail,5,24/11/2021
+CUS00146,Priya Green,user145@example.com,07457 544570,24/02/1953,M1 1AE,Premier,4,27 Apr 2024
+CUS00147,Zahra Ahmadi,user146@example.com,07553 456829,16 Apr 1962,M1 1AE,Small Business,5,17 Feb 2021
+CUS00148,Ella Green,user147@example.com,07808 627512,1962-12-19,M1 1AE,SME,2,2022-09-05
+CUS00149,Ella Wright,user148@example.com,07856 821854,10 Mar 1985,LS1 4DY,Premier,1,18 Feb 2021
+CUS00150,Zahra Davies,user149@example.com,07949 979637,1971-09-09,LS1 4DY,Premier,5,11 Sep 2022
+CUS00151,Tom Brown,user150@example.com,07743 756354,29/09/1987,B2 4QA,sme,1,2023-11-29
+CUS00152,Leila Wright,user151@example.com,07563 633366,25/07/1957,B2 4QA,Retail,4,2023-10-25
+CUS00153,Daniel Brown,n/a,07155 809453,25 Mar 1994,CR0 2AB,SME,4,2024-10-12
+CUS00154,Hassan Hughes,user153@example.com,07815 315974,23/11/1974,LS1 4DY,Retail,2,17/07/2022
+CUS00155,Isla Brown,user154@example.com,07538 805818,03 May 1954,LS1 4DY,Retail,5,24/02/2023
+CUS00156,Daniel Wilson,user155@example.com,07624 987686,1962-07-20,B2 4QA,retail,1,23 Feb 2026
+CUS00157,Tom Ahmadi,user156@example.com,07896 233845,19/07/1964,M1 1AE,SME,5,04/05/2023
+CUS00158,Chloe Wilson,user157@example.com,07601 898933,27 Dec 1977,NW1 7AB,Retail,2,07/03/2026
+CUS00159,Leila Hughes,user158@example.com,07293 145813,11 May 1984,LS1 4DY,Retail,4,20220625
+CUS00160,Isla Wilson,user159@example.com,07819 965259,16/10/1966,NW1 7AB,Retail,3,20/12/2020
+CUS00161,Sara Wright,n/a,07925 686286,15/09/1967,LS1 4DY,Retail,2,20231014
+CUS00162,Sara Khan,user161@example.com,07367 283008,01 Mar 1986,M1 1AE,Premier,5,2025-10-06
+CUS00163,Sara Lewis,user162@example.com,07659 271647,17/06/1982,B2 4QA,Retail,3,2023-10-18
+CUS00164,Tom Hughes,user163@example.com,07899 768484,24/05/1992,M1 1AE,Retail,1,2025-07-08
+CUS00165,Priya Evans,user164@example.com,07341 670353,24/05/1990,CR0 2AB,Small Business,4,27/04/2021
+CUS00166,Oliver Davies,user165@example.com,07366 361819,04 May 1964,B2 4QA,SME,5,2022-02-02
+CUS00167,Nora Wilson,user166@example.com,07160 276214,11/12/1953,CR0 2AB,Retail,2,04/07/2023
+CUS00168,Leila Clarke,user167@example.com,07466 464096,16/02/2000,M1 1AE,Retail,5,17 May 2022
+CUS00169,Hassan Walker,user168@example.com,07521 197034,10 Nov 1956,NW1 7AB,Retail,3,04/04/2025
+CUS00170,Chloe Hughes,user169@example.com,07306 767424,27 Jun 1985,CR0 2AB,SME,1,31/07/2022
+CUS00171,Jack Davies,user170@example.com,07418 243854,1960-11-12,B2 4QA,Small Business,3,01/08/2024
+CUS00172,Ella Smith,user171@example.com,07239 819566,16 Sep 1953,M1 1AE,Retail,5,26/02/2026
+CUS00173,Ella Lewis,user172@example.com,07823 610072,23 Sep 1981,LS1 4DY,Premier,1,16/09/2021
+CUS00174,Ella Wilson,user173@example.com,07786 606229,1973-10-27,LS1 4DY,SME,1,31 May 2023
+CUS00175,Hassan Davies,user174@example.com,07343 839897,19/03/1999,B2 4QA,Small Business,3,30/04/2021
+CUS00176,Nora Wright,user175@example.com,07347 106165,26/12/1959,M1 1AE,SME,4,27 Mar 2023
+CUS00177,Farhan Khan,user176@example.com,07627 825116,1965-10-29,M1 1AE,Retail,5,03 Mar 2025
+CUS00178,Farhan Walker,user177@example.com,07555 239567,25 Mar 1986,LS1 4DY,Retail,2,27/06/2024
+CUS00179,Sara Taylor,user178@example.com,07756 468533,19 Nov 1985,CR0 2AB,SME,5,22 Feb 2025
+CUS00180,Leila Walker,user179@example.com,07814 413914,17/05/1981,LS1 4DY,retail,3,02 Apr 2024
+CUS00181,Grace Smith,user180@example.com,07236 842093,16/09/1997,M1 1AE,Retail,1,21 Oct 2020
+CUS00182,Leila Clarke,user181@example.com,07245 716094,27 Nov 1975,LS1 4DY,Retail,4,06/07/2025
+CUS00183,Mohammed Ahmadi,user182@example.com,07676 352466,1955-12-02,M1 1AE,sme,1,20240830
+CUS00184,Leila Wilson,user183@example.com,07441 759975,18/01/1995,CR0 2AB,Premier,3,06/10/2021
+CUS00185,Priya Ahmadi,n/a,07934 223701,03/11/2001,LS1 4DY,SME,5,25 Jan 2022
+CUS00186,Nora Roberts,user185@example.com,07661 545262,21/06/2001,LS1 4DY,Small Business,2,06/05/2021
+CUS00187,Sara Patel,user186@example.com,07878 277430,25/07/1963,LS1 4DY,retail,2,2025-07-17
+CUS00188,Sara Clarke,user187@example.com,07793 798909,28 Nov 1994,B2 4QA,Premier,3,02 Jun 2024
+CUS00189,Daniel Khan,user188@example.com,07258 727764,01/01/1953,CR0 2AB,SME,5,08 Mar 2021
+CUS00190,Daniel Clarke,user189@example.com,07572 980264,17/10/1975,NW1 7AB,sme,5,15 Apr 2023
+CUS00191,Isla Lewis,user190@example.com,07884 525825,05 Sep 1974,B2 4QA,retail,2,17/09/2021
+CUS00192,Ben Green,user191@example.com,07951 316347,08/07/2004,B2 4QA,Small Business,5,08 Mar 2022
+CUS00193,Isla Evans,user192@example.com,07217 823654,1977-09-29,B2 4QA,Premier,3,12/06/2023
+CUS00194,Oliver Lewis,user193@example.com,07396 112972,1982-04-10,NW1 7AB,Retail,3,12 Jan 2026
+CUS00195,Nora Evans,user194@example.com,07469 610246,06 Dec 1960,M1 1AE,SME,5,16 Nov 2025
+CUS00196,Tom Wright,user195@example.com,07311 145504,05/08/1969,B2 4QA,Retail,3,27/10/2023
+CUS00197,Leila Clarke,user196@example.com,07161 394527,1990-02-03,M1 1AE,retail,4,01/09/2025
+CUS00198,Isla Brown,user197@example.com,07411 306688,1989-12-26,CR0 2AB,SME,2,11 Dec 2025
+CUS00199,Farhan Walker,user198@example.com,07213 835705,21/07/1953,CR0 2AB,retail,3,28 Jul 2021
+CUS00200,Chloe Lewis,user199@example.com,07416 569781,02 Dec 1959,LS1 4DY,retail,3,04 Sep 2020
+CUS00201,Amira Clarke,user200@example.com,07215 269155,06/07/1980,B2 4QA,Small Business,4,2022-09-22
+CUS00202,Isla Clarke,user201@example.com,07432 566692,18/07/1969,M1 1AE,Retail,2,2023-12-22
+CUS00203,Zahra Khan,user202@example.com,07579 696834,1975-04-11,NW1 7AB,Retail,5,19 Dec 2021
+CUS00204,Chloe Lewis,user203@example.com,07471 403568,1970-01-02,B2 4QA,SME,2,01/12/2021
+CUS00205,Daniel Wilson,user204@example.com,07272 684614,12 Apr 1995,B2 4QA,retail,5,22/02/2022
+CUS00206,Amira Roberts,user205@example.com,07173 147794,29 Aug 1955,LS1 4DY,SME,2,22 Oct 2023
+CUS00207,Tom Walker,user206@example.com,07111 591270,12/01/1958,CR0 2AB,retail,4,14 Nov 2021
+CUS00208,Isla Evans,user207@example.com,07868 609109,06/01/1985,CR0 2AB,Retail,2,2026-01-07
+CUS00209,Ben Khan,user208@example.com,07185 883591,1970-04-20,CR0 2AB,Premier,2,02 Nov 2025
+CUS00210,Daniel Green,user209@example.com,07834 447838,26 Apr 1983,CR0 2AB,Small Business,3,2023-08-14
+CUS00211,Isla Brown,user210@example.com,07856 691033,02/08/1972,LS1 4DY,Premier,2,2022-10-26
+CUS00212,Farhan Hughes,user211@example.com,07370 214087,22/08/2001,LS1 4DY,SME,4,29/12/2022
+CUS00213,Jack Patel,user212@example.com,07760 612623,16/10/1990,B2 4QA,retail,3,30 Sep 2021
+CUS00214,Sara Hughes,user213@example.com,07544 612065,15 Jan 1960,NW1 7AB,SME,4,18/09/2025
+CUS00215,Jack Wilson,user214@example.com,07294 921953,1967-06-04,M1 1AE,sme,4,07/09/2023
+CUS00216,Sara Green,user215@example.com,07656 437445,08/05/1989,M1 1AE,Retail,4,07/10/2025
+CUS00217,Isla Smith,user216@example.com,07108 476748,30 Oct 1973,M1 1AE,Retail,2,2023-06-04
+CUS00218,Amira Lewis,user217@example.com,07193 775814,1952-01-21,M1 1AE,SME,3,2025-08-10
+CUS00219,Ben Ahmadi,user218@example.com,07392 758237,18/08/1955,LS1 4DY,Retail,1,30/12/2020
+CUS00220,Amira Hughes,user219@example.com,07728 866133,03 Mar 1951,NW1 7AB,sme,4,19/05/2021
+CUS00221,Sara Wright,user220@example.com,07768 833335,15/01/2000,LS1 4DY,SME,3,19/05/2021
+CUS00222,Hassan Wilson,user221@example.com,07357 784796,21 Sep 2000,M1 1AE,Premier,2,14/02/2021
+CUS00223,Daniel Walker,user222@example.com,07351 181940,06/06/1977,LS1 4DY,SME,5,2024-11-11
+CUS00224,Reza Taylor,user223@example.com,07241 883756,1981-11-15,CR0 2AB,retail,3,2024-03-14
+CUS00225,Sara Patel,user224@example.com,07128 126521,29 Oct 1990,LS1 4DY,SME,2,2020-12-17
+CUS00226,Grace Khan,user225@example.com,07893 514473,29 Jul 1959,B2 4QA,retail,4,16 Apr 2023
+CUS00227,Leila Hughes,user226@example.com,07959 252187,1992-04-12,LS1 4DY,SME,3,27/11/2023
+CUS00228,Ella Taylor,user227@example.com,07403 485758,16/04/1980,M1 1AE,Retail,2,24/03/2022
+CUS00229,Mohammed Brown,user228@example.com,07290 769097,06 Jul 1961,M1 1AE,Retail,2,2023-07-24
+CUS00230,Ella Ahmadi,user229@example.com,07638 986806,28 Jul 1995,B2 4QA,sme,3,18 Mar 2025
+CUS00231,Chloe Lewis,user230@example.com,07798 276642,08/08/1972,LS1 4DY,Small Business,4,03 Jan 2022
+CUS00232,Oliver Green,user231@example.com,07204 922730,20/12/1974,NW1 7AB,Premier,5,02 Oct 2021
+CUS00233,Ben Clarke,user232@example.com,07836 970731,18/06/1984,LS1 4DY,Small Business,5,2025-01-06
+CUS00234,Nora Patel,user233@example.com,07417 878382,1962-01-03,CR0 2AB,Retail,5,02/02/2021
+CUS00235,Zahra Khan,user234@example.com,07731 442541,15/03/1969,LS1 4DY,sme,2,23/05/2022
+CUS00236,Jack Brown,user235@example.com,07488 293507,1952-06-23,LS1 4DY,SME,2,18/12/2022
+CUS00237,Priya Green,user236@example.com,07762 965417,08/08/1991,M1 1AE,Retail,2,24/09/2025
+CUS00238,Farhan Lewis,user237@example.com,07464 435707,2001-05-23,CR0 2AB,Retail,3,23/01/2024
+CUS00239,Priya Ahmadi,user238@example.com,07335 486427,05/01/1979,CR0 2AB,SME,5,26/02/2022
+CUS00240,Isla Smith,user239@example.com,07239 677906,21/06/1993,LS1 4DY,SME,3,05/02/2025
+CUS00241,Leila Roberts,user240@example.com,07478 978518,29 Aug 1950,M1 1AE,Premier,1,02 Feb 2022
+CUS00242,Hassan Brown,user241@example.com,07951 365866,1984-04-29,CR0 2AB,Premier,4,07/06/2021
+CUS00243,Jack Hughes,n/a,07345 160525,16/01/2003,M1 1AE,retail,2,11/05/2021
+CUS00244,Mohammed Green,user243@example.com,07142 212445,24/06/1989,NW1 7AB,SME,1,03/12/2025
+CUS00245,Amira Roberts,user244@example.com,07680 941780,1956-01-23,NW1 7AB,Small Business,3,2025-07-10
+CUS00246,Nora Clarke,user245@example.com,07743 959553,23/03/1992,LS1 4DY,Retail,1,09 Nov 2021
+CUS00247,Reza Lewis,user246@example.com,07822 522809,16/02/1992,M1 1AE,sme,2,19 Jan 2024
+CUS00248,Sara Hughes,user247@example.com,07151 326955,10/05/2004,NW1 7AB,Small Business,1,2024-10-03
+CUS00249,Hassan Ahmadi,user248@example.com,07606 543526,30/09/2003,CR0 2AB,Small Business,3,10 Jun 2021
+CUS00250,Chloe Lewis,user249@example.com,07611 866257,09/07/1970,NW1 7AB,Small Business,5,09/12/2020
+CUS00251,Chloe Evans,user250@example.com,07261 414124,08/06/1953,CR0 2AB,Retail,4,18 Feb 2021
+CUS00252,Nora Brown,user251@example.com,07717 709344,1950-01-31,M1 1AE,SME,3,31 Aug 2022
+CUS00253,Nora Ahmadi,user252@example.com,07741 184130,24/01/1986,LS1 4DY,Small Business,5,13/06/2025
+CUS00254,Jack Patel,user253@example.com,07245 821403,20/12/1953,B2 4QA,Retail,2,24/04/2023
+CUS00255,Hassan Clarke,user254@example.com,07332 271586,19730804,CR0 2AB,retail,3,05 Jun 2024
+CUS00256,Yusuf Evans,user255@example.com,07241 564716,1951-08-21,LS1 4DY,SME,3,2022-09-01
+CUS00257,Zahra Taylor,user256@example.com,07752 520883,31/08/1958,CR0 2AB,sme,3,22 May 2021
+CUS00258,Leila Wright,user257@example.com,07191 141883,12/12/1995,LS1 4DY,Retail,1,05/07/2025
+CUS00259,Ella Patel,user258@example.com,07971 560851,1950-03-16,B2 4QA,retail,5,21/02/2025
+CUS00260,Zahra Evans,user259@example.com,07590 300083,1999-11-15,B2 4QA,retail,1,17/03/2026
+CUS00261,Ben Walker,user260@example.com,07323 858068,1995-01-30,NW1 7AB,SME,5,28/01/2023
+CUS00262,Sara Evans,user261@example.com,07481 102938,13 Nov 1954,M1 1AE,Premier,1,15 Jul 2025
+CUS00263,Sara Ahmadi,user262@example.com,07132 981666,1991-01-03,NW1 7AB,SME,1,31/03/2022
+CUS00264,Yusuf Khan,user263@example.com,07725 996876,2000-03-25,LS1 4DY,retail,2,27/07/2023
+CUS00265,Chloe Ahmadi,user264@example.com,07953 925144,23/10/1966,B2 4QA,Premier,5,2023-03-01
+CUS00266,Ben Evans,user265@example.com,07623 546110,23/09/1968,LS1 4DY,Premier,3,05/11/2020
+CUS00267,Mohammed Davies,user266@example.com,07246 397016,1988-06-29,B2 4QA,sme,5,14/01/2026
+CUS00268,Nora Wilson,user267@example.com,07173 793764,1998-12-30,CR0 2AB,SME,1,09/02/2026
+CUS00269,Tom Brown,user268@example.com,07156 639620,1957-11-18,NW1 7AB,sme,5,2023-06-25
+CUS00270,Amira Khan,user269@example.com,07827 541668,21 Jan 1958,NW1 7AB,sme,4,2024-10-14
+CUS00271,Reza Lewis,user270@example.com,07446 165764,28/09/1977,CR0 2AB,Retail,2,11/08/2022
+CUS00272,Amira Wilson,user271@example.com,07549 109225,01 May 1994,NW1 7AB,Retail,2,19/08/2023
+CUS00273,Chloe Clarke,user272@example.com,07782 966199,1967-03-25,LS1 4DY,retail,4,29/09/2024
+CUS00274,Sara Clarke,user273@example.com,07280 859957,28/11/1953,LS1 4DY,Small Business,5,2024-10-05
+CUS00275,Reza Lewis,user274@example.com,07268 497224,30/08/1996,LS1 4DY,sme,3,2023-01-27
+CUS00276,Chloe Lewis,user275@example.com,07402 104397,2001-07-17,NW1 7AB,Premier,4,09/11/2023
+CUS00277,Hassan Hughes,user276@example.com,07553 943226,1951-12-08,B2 4QA,Retail,1,20 Nov 2025
+CUS00278,Hassan Wilson,user277@example.com,07676 808062,11/02/1962,B2 4QA,SME,3,01 Jun 2022
+CUS00279,Reza Taylor,user278@example.com,07456 695082,02 Dec 1954,NW1 7AB,Small Business,3,22/08/2021
+CUS00280,Chloe Wright,user279@example.com,07300 591612,18/08/1989,B2 4QA,Premier,1,2023-05-02
+CUS00281,Jack Brown,user280@example.com,07187 669084,31 Aug 1972,M1 1AE,Retail,4,2024-02-15
+CUS00282,Zahra Hughes,user281@example.com,07431 641883,1952-07-18,LS1 4DY,retail,3,02/09/2023
+CUS00283,Chloe Evans,user282@example.com,07571 549183,18/07/1964,B2 4QA,Premier,5,23/07/2024
+CUS00284,Leila Lewis,n/a,07647 756118,31/03/1979,NW1 7AB,sme,3,2025-11-12
+CUS00285,Jack Evans,user284@example.com,07986 261863,1951-03-08,B2 4QA,Premier,1,2021-07-26
+CUS00286,Amira Wright,user285@example.com,07510 738661,26 Jul 1980,M1 1AE,SME,2,26 Jan 2025
+CUS00287,Ben Wright,user286@example.com,07734 185394,29/06/1979,LS1 4DY,retail,5,04/03/2022
+CUS00288,Isla Davies,user287@example.com,07930 949026,27/09/1980,B2 4QA,Premier,3,16 Feb 2023
+CUS00289,Grace Wright,user288@example.com,07161 857877,29 May 1959,LS1 4DY,Premier,3,02/08/2023
+CUS00290,Jack Patel,user289@example.com,07792 447646,17 Feb 1988,M1 1AE,Retail,3,2025-03-12
+CUS00291,Priya Wilson,user290@example.com,07723 790420,07/10/1955,NW1 7AB,SME,3,2022-08-01
+CUS00292,Priya Davies,user291@example.com,07404 692469,1964-06-15,LS1 4DY,Premier,5,2023-08-02
+CUS00293,Tom Hughes,user292@example.com,07684 541599,21/04/1998,NW1 7AB,Retail,1,29/10/2025
+CUS00294,Jack Clarke,user293@example.com,07477 604084,1996-07-18,NW1 7AB,SME,2,20/12/2021
+CUS00295,Reza Ahmadi,user294@example.com,07772 778803,1969-01-20,B2 4QA,SME,1,10/06/2025
+CUS00296,Jack Wilson,user295@example.com,07240 413851,1973-05-05,NW1 7AB,Small Business,1,06/03/2024
+CUS00297,Chloe Wilson,user296@example.com,07986 460090,25/10/1965,M1 1AE,Retail,5,27/11/2023
+CUS00298,Isla Taylor,user297@example.com,07643 764531,05/07/1975,M1 1AE,Small Business,4,12/02/2026
+CUS00299,Grace Hughes,user298@example.com,07128 989307,1980-08-29,NW1 7AB,Premier,3,25 Oct 2023
+CUS00300,Chloe Clarke,user299@example.com,07293 333290,26/03/1958,LS1 4DY,Small Business,5,2022-03-07
+CUS00301,Ella Lewis,user300@example.com,07794 875648,13/04/1973,LS1 4DY,Small Business,2,02 Sep 2020
+CUS00302,Mohammed Evans,user301@example.com,07558 824942,24/03/1956,B2 4QA,Retail,4,2024-11-15
+CUS00303,Zahra Lewis,user302@example.com,07187 254054,1977-04-07,NW1 7AB,Retail,3,2024-01-24
+CUS00304,Daniel Smith,user303@example.com,07776 707200,22 Jan 1998,B2 4QA,Small Business,3,22 Jun 2025
+CUS00305,Hassan Wright,user304@example.com,07480 681830,1956-09-06,M1 1AE,Retail,2,16 Jun 2024
+CUS00306,Reza Taylor,user305@example.com,07694 536602,17 Apr 1994,M1 1AE,retail,2,23/12/2020
+CUS00307,Amira Green,user306@example.com,07468 655722,1990-05-17,CR0 2AB,SME,5,2025-09-18
+CUS00308,Amira Wright,user307@example.com,07346 692251,14/11/1972,M1 1AE,Retail,5,05/01/2023
+CUS00309,Priya Taylor,user308@example.com,07551 515595,1965-07-17,LS1 4DY,SME,3,19/01/2023
+CUS00310,Jack Evans,user309@example.com,07367 219803,29/04/1991,B2 4QA,retail,2,22/01/2023
+CUS00311,Oliver Smith,user310@example.com,07332 289269,02/10/1952,M1 1AE,sme,5,27/07/2025
+CUS00312,Nora Roberts,user311@example.com,07307 674739,25 Jul 1959,NW1 7AB,Small Business,1,29 Dec 2022
+CUS00313,Daniel Roberts,user312@example.com,07867 217725,1980-02-08,CR0 2AB,Small Business,5,2021-12-16
+CUS00314,Amira Roberts,user313@example.com,07326 977994,1967-01-16,CR0 2AB,SME,2,29/06/2023
+CUS00315,Leila Taylor,user314@example.com,07359 781232,06 Mar 1964,M1 1AE,Small Business,1,11/06/2023
+CUS00316,Daniel Hughes,user315@example.com,07197 296650,07/08/1973,M1 1AE,SME,2,11/05/2023
+CUS00317,Amira Patel,user316@example.com,07643 802796,1993-03-10,CR0 2AB,retail,3,02 Mar 2024
+CUS00318,Isla Smith,user317@example.com,07357 843543,1984-05-12,CR0 2AB,SME,5,06/02/2026
+CUS00319,Chloe Taylor,user318@example.com,07601 338016,2001-02-07,M1 1AE,Retail,5,2025-08-24
+CUS00320,Nora Clarke,user319@example.com,07667 580410,25 Oct 1955,B2 4QA,Retail,4,2024-12-11
+CUS00321,Mohammed Walker,user320@example.com,07331 667517,02 Sep 1961,LS1 4DY,Retail,2,17 Sep 2025
+CUS00322,Isla Brown,user321@example.com,07686 830567,16/08/1982,M1 1AE,retail,5,22 Feb 2023
+CUS00323,Isla Davies,user322@example.com,07215 871318,31 May 1962,M1 1AE,sme,4,2022-02-01
+CUS00324,Ben Patel,user323@example.com,07625 717040,1983-03-28,LS1 4DY,Retail,5,07/04/2023
+CUS00325,Ella Khan,user324@example.com,07680 184125,11/04/1972,NW1 7AB,sme,4,30/07/2022
+CUS00326,Isla Walker,user325@example.com,07971 527846,1975-08-06,CR0 2AB,Small Business,2,08/04/2024
+CUS00327,Sara Roberts,user326@example.com,07795 177042,04/02/1970,LS1 4DY,SME,1,2022-09-16
+CUS00328,Grace Smith,user327@example.com,07919 560877,19/06/1984,M1 1AE,Premier,3,21 May 2024
+CUS00329,Oliver Ahmadi,user328@example.com,07237 627570,1992-04-29,CR0 2AB,SME,1,17 Dec 2023
+CUS00330,Nora Hughes,user329@example.com,07663 631874,16/07/1954,LS1 4DY,Small Business,1,08/01/2025
+CUS00331,Chloe Brown,user330@example.com,07831 979281,1983-02-19,CR0 2AB,retail,3,15 Apr 2022
+CUS00332,Oliver Wilson,user331@example.com,07875 220180,1992-05-25,CR0 2AB,sme,2,2024-10-02
+CUS00333,Zahra Evans,n/a,07741 856651,10/11/1959,NW1 7AB,SME,1,25 Jun 2022
+CUS00334,Jack Wright,user333@example.com,07627 207052,30/05/1958,NW1 7AB,Small Business,5,15/12/2025
+CUS00335,Ben Evans,user334@example.com,07571 970539,07/01/1993,B2 4QA,Retail,1,2023-08-09
+CUS00336,Farhan Wright,user335@example.com,07802 511002,1988-03-15,M1 1AE,Retail,2,27 May 2025
+CUS00337,Oliver Roberts,user336@example.com,07657 279574,12 Feb 1967,NW1 7AB,Small Business,2,06/02/2025
+CUS00338,Jack Patel,user337@example.com,07296 690383,29 Oct 1989,NW1 7AB,sme,3,2024-04-24
+CUS00339,Isla Lewis,user338@example.com,07586 912625,10/10/1999,B2 4QA,sme,3,2021-01-04
+CUS00340,Nora Khan,user339@example.com,07195 243447,02/06/1993,M1 1AE,sme,1,21/11/2022
+CUS00341,Jack Wright,user340@example.com,07482 913866,16/11/1959,LS1 4DY,SME,5,27/06/2022
+CUS00342,Tom Taylor,user341@example.com,07733 160350,31/01/1997,LS1 4DY,retail,2,05/01/2025
+CUS00343,Daniel Green,user342@example.com,07514 348409,19/10/1995,M1 1AE,retail,4,25/08/2024
+CUS00344,Farhan Clarke,user343@example.com,07148 490434,08 Feb 1959,LS1 4DY,SME,2,15 Jul 2025
+CUS00345,Grace Wright,user344@example.com,07142 115908,12/01/1992,B2 4QA,retail,5,30/11/2025
+CUS00346,Tom Khan,user345@example.com,07818 723176,26/10/1961,M1 1AE,SME,3,13 Jan 2024
+CUS00347,Priya Roberts,user346@example.com,07318 582036,07 Jul 1978,LS1 4DY,Small Business,3,18/05/2025
+CUS00348,Priya Walker,user347@example.com,07407 226392,29/05/1982,LS1 4DY,SME,2,22/07/2023
+CUS00349,Ella Hughes,user348@example.com,07824 242181,1993-03-16,M1 1AE,Retail,2,28 Apr 2023
+CUS00350,Hassan Clarke,user349@example.com,07536 191965,04/03/1996,NW1 7AB,SME,4,10/11/2024
+CUS00351,Farhan Roberts,user350@example.com,07736 311392,21/11/1952,B2 4QA,sme,2,20230624
+CUS00352,Tom Clarke,user351@example.com,07676 220283,08/10/1994,NW1 7AB,sme,4,08 Sep 2020
+CUS00353,Leila Khan,user352@example.com,07845 471889,13 Sep 1982,M1 1AE,Retail,4,25 Nov 2025
+CUS00354,Mohammed Lewis,user353@example.com,07272 484808,30 Sep 1953,M1 1AE,Small Business,2,13 Aug 2021
+CUS00355,Yusuf Hughes,user354@example.com,07863 982349,1966-04-21,B2 4QA,Retail,2,18/02/2023
+CUS00356,Amira Walker,user355@example.com,07449 943170,2003-08-24,CR0 2AB,Premier,3,18 Mar 2023
+CUS00357,Nora Walker,user356@example.com,07881 871826,1990-04-26,CR0 2AB,Retail,4,06 Oct 2023
+CUS00358,Sara Hughes,user357@example.com,07796 112212,02/08/1975,LS1 4DY,Retail,2,2026-05-03
+CUS00359,Nora Lewis,user358@example.com,07945 368032,09 Mar 1967,B2 4QA,retail,5,2024-12-10
+CUS00360,Leila Brown,n/a,07225 350924,2002-05-01,NW1 7AB,retail,3,30/01/2025
+CUS00361,Reza Lewis,user360@example.com,07481 638109,24/01/1986,LS1 4DY,Premier,5,2022-06-17
+CUS00362,Yusuf Smith,user361@example.com,07854 650197,18/02/1951,NW1 7AB,Retail,2,2021-10-03
+CUS00363,Ella Hughes,user362@example.com,07465 856840,30 Nov 1970,NW1 7AB,Retail,4,14 Dec 2024
+CUS00364,Chloe Lewis,user363@example.com,07600 145617,26/11/1995,B2 4QA,Retail,3,12/05/2025
+CUS00365,Hassan Taylor,user364@example.com,07936 733124,16/01/1969,NW1 7AB,SME,1,26/04/2025
+CUS00366,Nora Wilson,user365@example.com,07461 204485,06/04/1967,B2 4QA,Premier,5,2025-10-20
+CUS00367,Oliver Patel,user366@example.com,07464 675493,20/10/1977,B2 4QA,retail,3,23 Jun 2023
+CUS00368,Amira Evans,user367@example.com,07435 942028,24 Apr 1974,CR0 2AB,SME,5,20 Sep 2025
+CUS00369,Ben Walker,n/a,07717 218456,06 Nov 1952,LS1 4DY,sme,4,2023-05-28
+CUS00370,Reza Wright,user369@example.com,07134 808017,1987-01-22,NW1 7AB,SME,1,06 May 2023
+CUS00371,Amira Clarke,user370@example.com,07348 366969,04/01/2001,NW1 7AB,sme,5,06/10/2020
+CUS00372,Nora Wilson,user371@example.com,07462 302530,1971-05-23,NW1 7AB,Retail,5,2020-09-08
+CUS00373,Priya Khan,user372@example.com,07810 568470,21 Nov 1963,B2 4QA,Retail,5,2022-03-12
+CUS00374,Daniel Khan,user373@example.com,07121 978876,04/06/2004,NW1 7AB,Small Business,1,07 Oct 2022
+CUS00375,Ella Evans,user374@example.com,07695 561245,1962-05-09,B2 4QA,Retail,5,27/01/2022
+CUS00376,Sara Davies,user375@example.com,07216 929610,28/07/1974,LS1 4DY,Retail,3,23/11/2022
+CUS00377,Priya Clarke,user376@example.com,07121 611755,19/04/1962,CR0 2AB,Small Business,5,04/08/2023
+CUS00378,Tom Brown,user377@example.com,07213 177337,2002-02-28,M1 1AE,Retail,1,13/07/2024
+CUS00379,Amira Evans,user378@example.com,07919 370974,18/01/1965,CR0 2AB,Small Business,2,2025-09-24
+CUS00380,Hassan Brown,user379@example.com,07289 257543,13/03/1957,M1 1AE,Retail,3,2025-05-19
+CUS00381,Jack Evans,user380@example.com,07667 404123,08/09/1986,NW1 7AB,SME,3,01 Jul 2024
+CUS00382,Isla Walker,user381@example.com,07994 820542,12 Jul 1963,NW1 7AB,Retail,4,22/11/2025
+CUS00383,Daniel Davies,user382@example.com,07785 499319,01/08/1986,CR0 2AB,sme,1,08/03/2026
+CUS00384,Chloe Patel,user383@example.com,07956 251248,05 May 1959,M1 1AE,Premier,5,2022-06-28
+CUS00385,Sara Hughes,user384@example.com,07702 362419,30/04/1956,B2 4QA,Small Business,1,03/06/2024
+CUS00386,Nora Lewis,user385@example.com,07651 823013,01/06/1962,M1 1AE,retail,1,2022-01-31
+CUS00387,Hassan Ahmadi,user386@example.com,07879 947448,1976-12-09,M1 1AE,retail,2,28/10/2021
+CUS00388,Amira Patel,user387@example.com,07375 565661,14 Jan 1990,M1 1AE,Retail,4,11/12/2022
+CUS00389,Priya Lewis,user388@example.com,07114 125960,27/10/1996,NW1 7AB,Retail,3,30 Apr 2023
+CUS00390,Leila Khan,user389@example.com,07450 258265,11 Feb 1989,M1 1AE,sme,3,2025-05-12
+CUS00391,Reza Khan,user390@example.com,07598 626149,02 Mar 2001,LS1 4DY,retail,1,18/10/2025
+CUS00392,Tom Khan,user391@example.com,07595 133177,23 Mar 1971,M1 1AE,Small Business,2,16/09/2022
+CUS00393,Amira Walker,user392@example.com,07919 977823,1956-08-02,LS1 4DY,SME,3,03/11/2023
+CUS00394,Jack Brown,user393@example.com,07136 178227,26 Apr 1992,B2 4QA,Retail,1,20/04/2021
+CUS00395,Amira Hughes,user394@example.com,07286 750558,11 Nov 1950,M1 1AE,Retail,3,28/01/2024
+CUS00396,Reza Walker,user395@example.com,07937 776002,04 Mar 1966,M1 1AE,Retail,3,28 Dec 2022
+CUS00397,Chloe Lewis,n/a,07795 729109,1970-11-23,M1 1AE,Retail,3,23/11/2024
+CUS00398,Hassan Walker,user397@example.com,07501 983906,01/08/1968,CR0 2AB,SME,2,18/03/2026
+CUS00399,Mohammed Khan,user398@example.com,07587 265972,06/01/1962,CR0 2AB,retail,4,2023-02-06
+CUS00400,Reza Brown,user399@example.com,07809 986163,08 Apr 1983,B2 4QA,Retail,4,01/03/2021
+CUS00401,Leila Walker,user400@example.com,07559 512526,06 Feb 1984,NW1 7AB,Premier,1,2023-01-11
+CUS00402,Mohammed Taylor,user401@example.com,07334 740518,12/06/1961,CR0 2AB,Small Business,3,29 Dec 2023
+CUS00403,Grace Ahmadi,user402@example.com,07629 179569,13/11/1973,NW1 7AB,SME,3,12/06/2024
+CUS00404,Jack Clarke,user403@example.com,07469 445267,1986-06-09,M1 1AE,Small Business,3,16/11/2020
+CUS00405,Grace Wright,user404@example.com,07640 326822,16 Feb 1992,B2 4QA,Small Business,5,08 Sep 2024
+CUS00406,Grace Patel,user405@example.com,07418 237280,05 Oct 2001,LS1 4DY,retail,1,16/09/2021
+CUS00407,Grace Khan,user406@example.com,07703 754960,23/03/1989,LS1 4DY,retail,3,13 May 2021
+CUS00408,Priya Khan,user407@example.com,07144 321648,01/08/1951,M1 1AE,SME,1,05/08/2025
+CUS00409,Isla Patel,user408@example.com,07273 958972,08 May 1985,M1 1AE,Retail,3,05/04/2024
+CUS00410,Daniel Wright,user409@example.com,07469 862572,14/05/1999,CR0 2AB,retail,5,19 Jan 2021
+CUS00411,Zahra Green,user410@example.com,07578 447465,16/02/2003,B2 4QA,Retail,4,2020-12-31
+CUS00412,Hassan Wright,user411@example.com,07690 591158,15 Feb 1983,B2 4QA,SME,3,31/10/2024
+CUS00413,Oliver Brown,n/a,07497 470862,1972-12-11,LS1 4DY,Retail,5,18/09/2023
+CUS00414,Zahra Evans,user413@example.com,07421 106278,2003-12-06,CR0 2AB,Retail,5,2024-09-09
+CUS00415,Nora Brown,user414@example.com,07443 707294,17/10/1967,CR0 2AB,Premier,5,05/08/2024
+CUS00416,Grace Ahmadi,user415@example.com,07595 449993,2000-04-19,LS1 4DY,Premier,3,06 Jun 2022
+CUS00417,Zahra Evans,user416@example.com,07332 121508,1950-06-05,M1 1AE,SME,4,13/09/2024
+CUS00418,Oliver Brown,user417@example.com,07354 581723,01/05/1972,LS1 4DY,Small Business,3,2020-07-01
+CUS00419,Ben Green,user418@example.com,07997 738231,29/08/1965,B2 4QA,retail,2,05 Jan 2025
+CUS00420,Nora Wilson,user419@example.com,07146 761519,1951-09-25,LS1 4DY,Premier,1,30/08/2022
+CUS00421,Leila Davies,user420@example.com,07249 862276,09/12/1957,NW1 7AB,Premier,3,13/01/2023
+CUS00422,Chloe Green,user421@example.com,07787 250628,26 Feb 1992,CR0 2AB,Retail,1,11/01/2022
+CUS00423,Leila Hughes,user422@example.com,07379 503105,21/09/1978,NW1 7AB,sme,2,2024-08-23
+CUS00424,Farhan Wilson,user423@example.com,07379 166566,1973-03-12,M1 1AE,Small Business,4,31/03/2022
+CUS00425,Ben Patel,user424@example.com,07612 374797,1973-09-07,NW1 7AB,Small Business,1,2025-10-29
+CUS00426,Nora Smith,user425@example.com,07465 696598,09 Sep 1955,NW1 7AB,Premier,1,05/04/2025
+CUS00427,Leila Wilson,user426@example.com,07687 653803,27 Oct 1961,CR0 2AB,SME,5,06 Aug 2025
+CUS00428,Farhan Davies,user427@example.com,07698 245851,27/08/1980,M1 1AE,Premier,3,31 Mar 2021
+CUS00429,Amira Clarke,user428@example.com,07815 135768,1966-11-26,B2 4QA,sme,5,2021-06-29
+CUS00430,Isla Clarke,user429@example.com,07674 908360,23/10/1963,CR0 2AB,Retail,5,22/05/2025
+CUS00431,Mohammed Walker,user430@example.com,07197 308922,1984-07-24,M1 1AE,Retail,2,21/02/2022
+CUS00432,Daniel Hughes,user431@example.com,07892 546957,1970-08-01,NW1 7AB,retail,4,2024-08-13
+CUS00433,Nora Smith,user432@example.com,07748 699544,21/05/1992,NW1 7AB,retail,5,2025-04-27
+CUS00434,Jack Walker,user433@example.com,07749 203801,01/03/1967,NW1 7AB,Small Business,5,19/09/2023
+CUS00435,Chloe Brown,user434@example.com,07471 930369,10/01/1992,M1 1AE,retail,1,2023-06-08
+CUS00436,Reza Hughes,user435@example.com,07388 931564,16/05/1958,B2 4QA,sme,2,19 Aug 2024
+CUS00437,Mohammed Wilson,user436@example.com,07914 349600,2000-09-09,CR0 2AB,Retail,2,12 Nov 2023
+CUS00438,Grace Roberts,user437@example.com,07993 935401,17/04/1967,NW1 7AB,Small Business,1,22/07/2025
+CUS00439,Mohammed Wright,user438@example.com,07244 814430,06/09/1959,M1 1AE,Premier,2,16/09/2023
+CUS00440,Amira Walker,user439@example.com,07173 418762,13/08/1971,B2 4QA,Retail,4,09 Jul 2023
+CUS00441,Hassan Taylor,user440@example.com,07881 458089,1996-10-25,LS1 4DY,sme,5,09 Apr 2024
+CUS00442,Ben Taylor,user441@example.com,07857 480269,1952-10-09,M1 1AE,retail,1,15/04/2022
+CUS00443,Ben Wilson,user442@example.com,07621 994648,29/10/1969,NW1 7AB,SME,2,2021-05-02
+CUS00444,Chloe Brown,user443@example.com,07750 357113,02/10/1990,NW1 7AB,Retail,1,24/01/2025
+CUS00445,Isla Hughes,user444@example.com,07458 677492,11 May 1968,NW1 7AB,sme,2,17/04/2025
+CUS00446,Chloe Roberts,user445@example.com,07832 525682,10/10/1961,LS1 4DY,Premier,1,2025-11-09
+CUS00447,Mohammed Lewis,user446@example.com,07442 163385,14 Jul 1991,CR0 2AB,retail,2,27 Sep 2022
+CUS00448,Leila Brown,user447@example.com,07821 453596,29 Jul 1985,LS1 4DY,Retail,2,25/07/2025
+CUS00449,Isla Roberts,user448@example.com,07787 438899,29 Dec 1954,NW1 7AB,Retail,4,03/09/2025
+CUS00450,Isla Patel,user449@example.com,07901 604853,30 Dec 1957,NW1 7AB,SME,5,27 Oct 2020
+CUS00451,Amira Clarke,user450@example.com,07615 485126,03/02/1996,CR0 2AB,Small Business,2,13/12/2021
+CUS00452,Amira Khan,user451@example.com,07349 948526,30/12/1971,LS1 4DY,Premier,2,2024-04-21
+CUS00453,Daniel Wright,user452@example.com,07340 466200,05 Oct 1978,CR0 2AB,SME,5,2024-07-30
+CUS00454,Priya Taylor,user453@example.com,07254 242207,1992-09-29,CR0 2AB,Premier,5,2023-10-08
+CUS00455,Isla Walker,user454@example.com,07310 107583,13/07/1959,NW1 7AB,Small Business,4,2026-01-22
+CUS00456,Reza Evans,user455@example.com,07991 804009,26 Mar 1989,LS1 4DY,Small Business,4,10 May 2021
+CUS00457,Reza Green,user456@example.com,07564 524653,28 Jan 1996,B2 4QA,retail,3,11/02/2025
+CUS00458,Amira Patel,user457@example.com,07556 515313,13/10/1992,M1 1AE,retail,1,05 Mar 2021
+CUS00459,Ella Khan,user458@example.com,07682 909865,06 May 1983,M1 1AE,SME,2,16/04/2025
+CUS00460,Leila Roberts,user459@example.com,07409 277124,31/07/1954,B2 4QA,Retail,3,2022-09-30
+CUS00461,Priya Smith,user460@example.com,07700 169547,19 Nov 1957,CR0 2AB,sme,3,14/11/2025
+CUS00462,Zahra Clarke,user461@example.com,07247 416134,08/12/1961,LS1 4DY,Small Business,5,09 Jun 2025
+CUS00463,Sara Hughes,user462@example.com,07837 423481,1955-09-02,B2 4QA,Retail,4,16/05/2023
+CUS00464,Nora Green,user463@example.com,07358 861952,29 Nov 1976,NW1 7AB,retail,1,09/01/2023
+CUS00465,Hassan Walker,user464@example.com,07685 678048,28/03/1989,CR0 2AB,Retail,3,21/12/2025
+CUS00466,Chloe Brown,user465@example.com,07774 457005,1985-05-03,NW1 7AB,Small Business,4,2024-04-30
+CUS00467,Reza Roberts,user466@example.com,07175 299478,10/11/1952,CR0 2AB,Small Business,2,2025-04-30
+CUS00468,Farhan Walker,user467@example.com,07697 183919,1997-07-20,M1 1AE,retail,5,05 Apr 2024
+CUS00469,Daniel Clarke,n/a,07698 287426,08/05/1978,B2 4QA,sme,4,20220217
+CUS00470,Isla Clarke,user469@example.com,07411 708677,04/03/1965,CR0 2AB,Premier,2,18/02/2022
+CUS00471,Grace Davies,user470@example.com,07461 590599,14 Mar 1988,NW1 7AB,SME,5,17/10/2022
+CUS00472,Oliver Wright,user471@example.com,07465 912057,22/01/1961,NW1 7AB,sme,5,01 Jun 2025
+CUS00473,Priya Green,user472@example.com,07806 549073,08 Jul 1999,NW1 7AB,retail,5,04/04/2024
+CUS00474,Hassan Evans,user473@example.com,07838 171037,10/09/1984,M1 1AE,Premier,3,19/12/2021
+CUS00475,Oliver Wilson,user474@example.com,07958 608051,11/03/2004,NW1 7AB,Small Business,1,19/01/2025
+CUS00476,Zahra Khan,user475@example.com,07426 283745,11/04/1985,CR0 2AB,SME,4,2024-04-21
+CUS00477,Tom Davies,user476@example.com,07382 370049,17/05/1967,LS1 4DY,Retail,5,2021-01-04
+CUS00478,Jack Patel,user477@example.com,07659 124192,08 Aug 1959,CR0 2AB,Premier,5,2020-08-28
+CUS00479,Isla Lewis,user478@example.com,07876 272559,19720329,B2 4QA,Retail,2,2023-10-30
+CUS00480,Mohammed Lewis,user479@example.com,07741 381071,29 Apr 1963,M1 1AE,sme,1,18 Nov 2024
+CUS00481,Isla Hughes,user480@example.com,07342 838611,13 Feb 1978,B2 4QA,Premier,3,2024-09-01
+CUS00482,Priya Khan,user481@example.com,07120 328919,1966-10-28,LS1 4DY,Retail,4,29/12/2022
+CUS00483,Farhan Khan,user482@example.com,07148 518983,04 Jan 1950,CR0 2AB,sme,4,10/11/2022
+CUS00484,Hassan Evans,user483@example.com,07558 310079,08 Dec 1950,M1 1AE,sme,3,18/01/2025
+CUS00485,Jack Hughes,user484@example.com,07717 396364,2004-05-31,NW1 7AB,Small Business,5,2020-11-20
+CUS00486,Leila Clarke,user485@example.com,07984 626297,06 May 1979,B2 4QA,SME,1,30/08/2025
+CUS00487,Nora Lewis,user486@example.com,07763 204406,11 Nov 1973,M1 1AE,Small Business,4,22/03/2024
+CUS00488,Hassan Khan,user487@example.com,07301 353478,12/08/1983,CR0 2AB,Premier,1,02/05/2022
+CUS00489,Daniel Wilson,user488@example.com,07851 159559,08/12/1983,B2 4QA,Small Business,1,23 Nov 2024
+CUS00490,Ben Davies,user489@example.com,07232 730216,17/02/1951,B2 4QA,retail,4,01/06/2021
+CUS00491,Amira Wright,user490@example.com,07149 183160,12/11/2000,CR0 2AB,SME,1,10/01/2021
+CUS00492,Hassan Wilson,user491@example.com,07175 948790,08/09/1954,B2 4QA,Retail,1,24 May 2023
+CUS00493,Mohammed Brown,user492@example.com,07935 703436,04 Jul 1963,CR0 2AB,SME,5,04/11/2020
+CUS00494,Jack Khan,user493@example.com,07449 853941,08/04/1995,NW1 7AB,Premier,4,30/07/2021
+CUS00495,Daniel Brown,user494@example.com,07239 105295,16/03/1989,NW1 7AB,Small Business,3,31/01/2022
+CUS00496,Grace Hughes,user495@example.com,07292 383778,07 Jul 1971,CR0 2AB,sme,2,13/06/2024
+CUS00497,Chloe Smith,user496@example.com,07649 773694,03/12/1954,M1 1AE,sme,3,2022-09-17
+CUS00498,Sara Green,user497@example.com,07996 115735,07/09/1978,B2 4QA,Premier,4,20/12/2024
+CUS00499,Priya Lewis,user498@example.com,07755 438581,1998-09-05,LS1 4DY,Retail,1,29 Aug 2025
+CUS00500,Amira Davies,user499@example.com,07128 322535,22 Feb 1999,B2 4QA,SME,4,12/05/2021
+CUS00501,Zahra Smith,user500@example.com,07429 442622,09/03/1992,NW1 7AB,Retail,5,10 Feb 2025
+CUS00502,Grace Brown,user501@example.com,07988 885723,1980-07-17,B2 4QA,SME,5,2026-05-26
+CUS00503,Mohammed Roberts,user502@example.com,07127 780455,1959-01-03,CR0 2AB,Premier,4,2022-01-01
+CUS00504,Ella Brown,user503@example.com,07597 525006,1952-04-17,CR0 2AB,Retail,5,07/06/2024
+CUS00505,Grace Lewis,user504@example.com,07724 811944,1956-01-27,B2 4QA,retail,3,26 Jan 2025
+CUS00506,Ben Hughes,user505@example.com,07919 454182,21/10/1967,B2 4QA,SME,5,30/08/2021
+CUS00507,Amira Roberts,n/a,07278 160238,30/11/1977,B2 4QA,Premier,5,04/09/2024
+CUS00508,Oliver Smith,user507@example.com,07984 534395,20/10/1977,LS1 4DY,Retail,5,2023-08-27
+CUS00509,Farhan Patel,user508@example.com,07915 147672,30 Jul 1978,M1 1AE,Small Business,3,22/08/2023
+CUS00510,Chloe Hughes,user509@example.com,07189 756734,1981-08-09,CR0 2AB,retail,4,12 Jul 2023
+CUS00511,Ben Wright,user510@example.com,07727 450769,2003-10-26,B2 4QA,retail,2,2022-11-13
+CUS00512,Tom Wright,user511@example.com,07894 618373,1993-06-04,CR0 2AB,Small Business,4,21 Feb 2025
+CUS00513,Chloe Walker,user512@example.com,07712 518966,17 May 1970,CR0 2AB,Small Business,1,07 Apr 2025
+CUS00514,Daniel Taylor,user513@example.com,07363 585887,1998-09-11,LS1 4DY,Premier,4,2022-10-18
+CUS00515,Tom Evans,user514@example.com,07994 114260,20001228,M1 1AE,Retail,1,03 Aug 2025
+CUS00516,Tom Clarke,user515@example.com,07126 432285,14/02/1952,M1 1AE,Small Business,5,22/11/2024
+CUS00517,Farhan Taylor,n/a,07677 785865,14 Apr 1958,B2 4QA,Premier,3,26/12/2021
+CUS00518,Isla Walker,user517@example.com,07420 158738,21 Mar 1996,CR0 2AB,SME,2,27/12/2024
+CUS00519,Jack Patel,user518@example.com,07525 743791,1959-02-10,LS1 4DY,Premier,5,26/09/2023
+CUS00520,Oliver Brown,user519@example.com,07827 859310,25/08/1969,LS1 4DY,Small Business,4,19/05/2024
+CUS00521,Jack Smith,user520@example.com,07954 445155,1964-02-25,CR0 2AB,sme,2,18/07/2020
+CUS00522,Oliver Walker,user521@example.com,07260 197988,25 May 1987,LS1 4DY,Small Business,2,27/02/2022
+CUS00523,Amira Smith,user522@example.com,07119 263778,09/07/1979,CR0 2AB,Premier,2,10/08/2022
+CUS00524,Grace Taylor,user523@example.com,07315 249587,1994-01-28,NW1 7AB,Retail,2,2026-01-02
+CUS00525,Nora Hughes,user524@example.com,07642 904455,08/11/1962,NW1 7AB,retail,2,29/12/2020
+CUS00526,Amira Walker,user525@example.com,07960 194233,04/05/2000,B2 4QA,sme,3,2022-02-28
+CUS00527,Farhan Walker,user526@example.com,07466 953558,1966-06-13,LS1 4DY,SME,1,16/03/2022
+CUS00528,Daniel Clarke,user527@example.com,07470 543790,2001-01-21,B2 4QA,sme,4,29 Jan 2021
+CUS00529,Nora Smith,user528@example.com,07452 664826,09/08/1968,B2 4QA,Retail,3,31 Jul 2025
+CUS00530,Priya Green,user529@example.com,07796 717075,29/10/1995,CR0 2AB,Small Business,3,2022-12-13
+CUS00531,Ella Ahmadi,user530@example.com,07986 681954,27/03/2000,LS1 4DY,Retail,1,30/05/2022
+CUS00532,Ben Evans,user531@example.com,07257 789291,27/04/1989,M1 1AE,retail,1,06/02/2026
+CUS00533,Nora Clarke,user532@example.com,07716 702903,23 Mar 1962,M1 1AE,SME,5,31 Jul 2025
+CUS00534,Yusuf Smith,user533@example.com,07438 341175,14/03/2004,LS1 4DY,retail,4,2023-08-08
+CUS00535,Sara Green,user534@example.com,07858 748728,02/06/1969,NW1 7AB,Retail,3,30 Jul 2023
+CUS00536,Ella Smith,user535@example.com,07364 952968,1954-11-10,B2 4QA,Retail,5,30/07/2022
+CUS00537,Jack Green,user536@example.com,07828 600758,09/07/1980,NW1 7AB,retail,4,26/07/2023
+CUS00538,Sara Green,user537@example.com,07881 133169,08/04/1971,LS1 4DY,retail,5,13/04/2024
+CUS00539,Chloe Davies,user538@example.com,07894 778749,09/05/1996,M1 1AE,Small Business,3,27/10/2021
+CUS00540,Nora Wright,user539@example.com,07416 783294,03/02/2004,CR0 2AB,Retail,5,05 Jan 2026
+CUS00541,Grace Patel,user540@example.com,07891 676185,2002-07-13,M1 1AE,sme,2,2025-08-05
+CUS00542,Ella Brown,user541@example.com,07823 575173,25/06/1991,NW1 7AB,Retail,4,14/06/2022
+CUS00543,Reza Roberts,n/a,07672 391779,14/06/1974,LS1 4DY,Retail,4,23 Feb 2021
+CUS00544,Ben Taylor,user543@example.com,07470 648743,1995-11-01,M1 1AE,SME,4,03/04/2024
+CUS00545,Chloe Green,user544@example.com,07642 387234,1989-09-16,M1 1AE,Small Business,3,2023-05-16
+CUS00546,Hassan Taylor,user545@example.com,07235 365201,06/03/2000,M1 1AE,retail,4,2022-11-29
+CUS00547,Zahra Hughes,user546@example.com,07109 685243,14/09/1978,LS1 4DY,Retail,1,2021-03-23
+CUS00548,Reza Green,user547@example.com,07587 204638,19/09/1998,B2 4QA,retail,1,17/04/2025
+CUS00549,Yusuf Hughes,user548@example.com,07771 948504,04/11/1967,CR0 2AB,Premier,4,13/10/2024
+CUS00550,Ben Taylor,user549@example.com,07892 480107,27 Dec 1981,B2 4QA,sme,5,2023-08-17
+CUS00551,Sara Green,user550@example.com,07254 759455,25/10/1977,M1 1AE,Retail,3,2020-11-10
+CUS00552,Nora Smith,user551@example.com,07333 520315,21/12/1989,CR0 2AB,Retail,2,09 Jul 2022
+CUS00553,Daniel Evans,user552@example.com,07874 194279,28 Nov 2002,M1 1AE,retail,5,30/12/2024
+CUS00554,Hassan Hughes,user553@example.com,07128 754971,22/06/1966,CR0 2AB,retail,1,2021-12-22
+CUS00555,Ben Brown,user554@example.com,07237 228159,12 Feb 2003,M1 1AE,Premier,4,31 May 2021
+CUS00556,Leila Davies,user555@example.com,07161 669661,17/04/1992,LS1 4DY,sme,2,09/10/2021
+CUS00557,Nora Wilson,user556@example.com,07613 314893,09/02/2003,M1 1AE,SME,2,2023-01-08
+CUS00558,Tom Patel,user557@example.com,07668 915132,24/11/1970,LS1 4DY,retail,3,2023-02-13
+CUS00559,Oliver Patel,user558@example.com,07286 371699,31 Mar 1956,CR0 2AB,Small Business,3,06 Aug 2021
+CUS00560,Yusuf Khan,user559@example.com,07720 483369,22/02/1988,B2 4QA,SME,5,2024-07-02
+CUS00561,Oliver Taylor,user560@example.com,07855 256568,1963-09-01,CR0 2AB,retail,5,05/04/2025
+CUS00562,Mohammed Wilson,user561@example.com,07281 873583,26/09/1953,M1 1AE,Premier,1,25 Jun 2021
+CUS00563,Sara Wilson,user562@example.com,07976 916940,20/10/1981,NW1 7AB,Small Business,3,29/12/2023
+CUS00564,Farhan Ahmadi,user563@example.com,07265 654170,22/10/1988,NW1 7AB,Small Business,1,2024-02-07
+CUS00565,Amira Wright,user564@example.com,07129 467869,1999-09-21,LS1 4DY,Small Business,5,2025-07-31
+CUS00566,Priya Khan,user565@example.com,07896 844103,14/01/1963,NW1 7AB,sme,3,2023-12-11
+CUS00567,Priya Wilson,n/a,07348 563006,21/04/1979,CR0 2AB,retail,3,20/12/2024
+CUS00568,Farhan Wright,user567@example.com,07980 623173,05/07/1980,LS1 4DY,retail,4,24 Dec 2025
+CUS00569,Nora Davies,user568@example.com,07318 767026,16/04/1999,B2 4QA,Small Business,5,17/07/2025
+CUS00570,Chloe Evans,user569@example.com,07452 939421,1975-08-18,B2 4QA,Small Business,1,29 Jun 2024
+CUS00571,Mohammed Walker,user570@example.com,07498 582448,31/12/1978,M1 1AE,Retail,3,11 Aug 2024
+CUS00572,Mohammed Clarke,user571@example.com,07317 439562,1994-06-22,M1 1AE,Retail,3,07/08/2022
+CUS00573,Priya Brown,user572@example.com,07908 127758,21 May 1981,B2 4QA,retail,3,14/01/2022
+CUS00574,Ben Evans,user573@example.com,07210 792089,14 Oct 1992,B2 4QA,Retail,3,24/07/2022
+CUS00575,Chloe Roberts,user574@example.com,07850 116186,24 Sep 1984,CR0 2AB,retail,2,13/08/2022
+CUS00576,Sara Clarke,user575@example.com,07167 945940,04/07/1951,B2 4QA,Premier,2,14/07/2023
+CUS00577,Ben Taylor,user576@example.com,07760 521374,1956-01-11,LS1 4DY,Retail,1,23/07/2025
+CUS00578,Ella Ahmadi,user577@example.com,07790 467719,30 Sep 1974,CR0 2AB,Premier,5,01 Jul 2024
+CUS00579,Chloe Davies,user578@example.com,07161 339197,31/05/1994,LS1 4DY,SME,1,19/12/2020
+CUS00580,Grace Evans,user579@example.com,07677 494256,14/12/1951,LS1 4DY,retail,4,23 Sep 2025
+CUS00581,Reza Patel,user580@example.com,07519 493810,03/05/1955,NW1 7AB,retail,5,06/01/2021
+CUS00582,Farhan Khan,user581@example.com,07772 757585,07/03/1963,LS1 4DY,Retail,3,17/12/2023
+CUS00583,Chloe Smith,user582@example.com,07980 334967,1955-03-03,CR0 2AB,Small Business,2,2023-10-11
+CUS00584,Zahra Lewis,user583@example.com,07131 364166,1959-08-11,CR0 2AB,Premier,5,20260331
+CUS00585,Farhan Roberts,user584@example.com,07121 375063,01/05/1963,LS1 4DY,Small Business,1,04/06/2023
+CUS00586,Zahra Lewis,user585@example.com,07826 554866,30/07/1953,M1 1AE,retail,1,2024-01-16
+CUS00587,Priya Evans,user586@example.com,07347 342620,18/11/1987,B2 4QA,retail,3,16/04/2022
+CUS00588,Isla Wright,user587@example.com,07462 313076,24 Jul 2003,NW1 7AB,Retail,2,2022-10-28
+CUS00589,Grace Lewis,user588@example.com,07433 896044,02/06/1953,CR0 2AB,sme,4,01/05/2025
+CUS00590,Zahra Khan,user589@example.com,07535 773930,22 Feb 1961,LS1 4DY,retail,5,2026-03-04
+CUS00591,Leila Smith,n/a,07385 412958,11/02/1965,LS1 4DY,Retail,3,2022-12-20
+CUS00592,Ben Hughes,user591@example.com,07610 327131,11 Aug 1959,CR0 2AB,Retail,3,01 Oct 2024
+CUS00593,Farhan Taylor,user592@example.com,07683 929244,08/10/1967,LS1 4DY,retail,3,2026-02-15
+CUS00594,Farhan Lewis,user593@example.com,07260 600559,09 Mar 1979,B2 4QA,Retail,5,06 Dec 2022
+CUS00595,Leila Taylor,user594@example.com,07983 906566,1990-01-10,B2 4QA,Small Business,1,09/07/2021
+CUS00596,Farhan Lewis,user595@example.com,07373 888046,16/09/1965,B2 4QA,retail,1,26/09/2021
+CUS00597,Daniel Brown,user596@example.com,07239 962799,1981-06-29,NW1 7AB,retail,5,07/11/2023
+CUS00598,Mohammed Wilson,user597@example.com,07407 396291,1989-12-21,B2 4QA,Retail,3,03/01/2025
+CUS00599,Tom Davies,user598@example.com,07190 447632,1989-06-09,LS1 4DY,sme,5,26 Sep 2023
+CUS00600,Isla Taylor,user599@example.com,07104 609137,1990-07-07,M1 1AE,Retail,3,08/05/2024
+CUS00601,Mohammed Lewis,user600@example.com,07993 361863,02/12/2003,NW1 7AB,SME,1,13/06/2023
+CUS00602,Nora Smith,user601@example.com,07265 435301,1995-11-17,M1 1AE,retail,5,01 Jan 2024
+CUS00603,Yusuf Evans,user602@example.com,07799 739899,24/04/2000,LS1 4DY,Retail,5,2026-06-17
+CUS00604,Mohammed Roberts,user603@example.com,07711 575055,14/09/1965,M1 1AE,sme,4,2023-07-27
+CUS00605,Chloe Wilson,user604@example.com,07317 707360,1950-05-31,M1 1AE,SME,5,2024-05-24
+CUS00606,Hassan Green,user605@example.com,07153 920168,22/06/1982,NW1 7AB,SME,3,08/12/2021
+CUS00607,Zahra Brown,user606@example.com,07314 992701,15/02/2001,M1 1AE,retail,1,19/12/2025
+CUS00608,Jack Lewis,user607@example.com,07853 477869,11/12/1979,M1 1AE,retail,3,18/04/2023
+CUS00609,Jack Roberts,user608@example.com,07147 917695,20/05/1978,NW1 7AB,sme,4,03/07/2024
+CUS00610,Amira Brown,user609@example.com,07892 560404,16/02/1974,NW1 7AB,sme,1,07/04/2022
+CUS00611,Hassan Evans,user610@example.com,07286 555929,21 May 1950,LS1 4DY,Premier,3,16/11/2022
+CUS00612,Jack Walker,user611@example.com,07984 246589,22 Jul 1978,M1 1AE,Premier,3,2022-08-14
+CUS00613,Oliver Smith,user612@example.com,07404 818436,20/03/1980,B2 4QA,Small Business,1,2021-02-17
+CUS00614,Ben Evans,user613@example.com,07125 944125,1974-09-06,LS1 4DY,Retail,3,07/11/2020
+CUS00615,Reza Khan,user614@example.com,07214 259307,1994-02-22,NW1 7AB,retail,1,21 Feb 2023
+CUS00616,Zahra Brown,user615@example.com,07109 239863,1963-05-18,CR0 2AB,SME,5,02/12/2025
+CUS00617,Amira Brown,user616@example.com,07409 258127,08 Jun 2001,NW1 7AB,sme,1,2022-02-12
+CUS00618,Amira Smith,user617@example.com,07614 871768,2002-08-15,M1 1AE,Premier,2,2023-12-06
+CUS00619,Jack Davies,user618@example.com,07460 202286,30/10/1957,M1 1AE,retail,5,05/04/2021
+CUS00620,Sara Smith,user619@example.com,07869 276938,1959-03-26,CR0 2AB,sme,5,27/07/2021
+CUS00621,Tom Khan,user620@example.com,07575 815935,19/05/2004,CR0 2AB,Retail,4,11/05/2023
+CUS00622,Oliver Patel,user621@example.com,07506 194614,08/01/1973,NW1 7AB,SME,1,01/12/2023
+CUS00623,Yusuf Evans,user622@example.com,07524 456033,18/01/1983,LS1 4DY,SME,5,09/01/2025
+CUS00624,Grace Smith,user623@example.com,07757 797671,07 Nov 1976,M1 1AE,retail,3,05 Oct 2021
+CUS00625,Zahra Wright,user624@example.com,07833 515944,07/12/1974,B2 4QA,Retail,1,08 Oct 2022
+CUS00626,Farhan Evans,user625@example.com,07443 134513,27/07/1995,LS1 4DY,Retail,5,2021-09-21
+CUS00627,Amira Khan,user626@example.com,07699 346007,18 Apr 2001,NW1 7AB,retail,3,2024-10-28
+CUS00628,Ella Wilson,user627@example.com,07306 930588,06 Dec 1990,B2 4QA,sme,3,10/11/2025
+CUS00629,Daniel Clarke,user628@example.com,07742 822949,31/12/1985,CR0 2AB,Small Business,1,27/01/2024
+CUS00630,Ella Lewis,user629@example.com,07115 139713,22/08/1960,NW1 7AB,Retail,2,24 Aug 2021
+CUS00631,Nora Lewis,user630@example.com,07238 629301,25/06/1976,NW1 7AB,Retail,1,2025-04-18
+CUS00632,Amira Brown,user631@example.com,07709 342880,18/07/1981,CR0 2AB,Retail,4,06 Aug 2025
+CUS00633,Tom Smith,user632@example.com,07688 551408,1972-05-07,NW1 7AB,Retail,4,11/09/2025
+CUS00634,Zahra Wilson,user633@example.com,07815 209962,1989-11-27,CR0 2AB,Retail,2,06 Nov 2021
+CUS00635,Zahra Wright,user634@example.com,07845 120903,1957-05-04,M1 1AE,Retail,2,23/03/2021
+CUS00636,Hassan Green,user635@example.com,07149 431864,29/04/1969,CR0 2AB,Small Business,5,2022-11-03
+CUS00637,Amira Brown,user636@example.com,07166 215708,22 Mar 1957,LS1 4DY,sme,3,11 Jun 2024
+CUS00638,Ben Ahmadi,n/a,07223 611028,12/08/2004,M1 1AE,Retail,5,11 Oct 2025
+CUS00639,Nora Green,user638@example.com,07239 650938,10 Oct 1960,LS1 4DY,Retail,3,13 Dec 2024
+CUS00640,Hassan Green,user639@example.com,07538 102695,05/03/1980,CR0 2AB,sme,4,16/05/2025
+CUS00641,Ben Davies,user640@example.com,07283 334789,07/07/1992,M1 1AE,Small Business,3,2025-11-17
+CUS00642,Amira Hughes,user641@example.com,07801 666690,1972-06-12,B2 4QA,Premier,4,25/05/2022
+CUS00643,Ella Walker,user642@example.com,07251 763959,03 Nov 1969,B2 4QA,SME,5,20/12/2022
+CUS00644,Grace Walker,user643@example.com,07855 672020,30/08/1955,M1 1AE,retail,5,28/01/2021
+CUS00645,Zahra Green,user644@example.com,07612 217821,15/01/1969,LS1 4DY,Premier,5,08/05/2025
+CUS00646,Sara Patel,user645@example.com,07642 470747,22/01/1978,LS1 4DY,SME,2,27/12/2022
+CUS00647,Chloe Patel,user646@example.com,07959 620373,26/10/1970,NW1 7AB,retail,1,08/07/2021
+CUS00648,Ben Wright,user647@example.com,07179 466416,20 Jul 1997,CR0 2AB,Small Business,1,2025-06-30
+CUS00649,Tom Ahmadi,user648@example.com,07320 994620,1964-05-26,B2 4QA,Retail,5,17/08/2024
+CUS00650,Nora Walker,user649@example.com,07329 866926,18/09/1999,CR0 2AB,Retail,5,2024-08-12
+CUS00651,Priya Clarke,user650@example.com,07174 386232,20/04/1962,M1 1AE,Small Business,5,03/08/2024
+CUS00652,Priya Green,user651@example.com,07820 285828,30 Mar 1994,LS1 4DY,Small Business,1,16/11/2025
+CUS00653,Hassan Davies,user652@example.com,07115 377503,16 Nov 1958,B2 4QA,Retail,2,2025-11-02
+CUS00654,Isla Khan,user653@example.com,07375 172268,1964-07-18,CR0 2AB,SME,4,23 May 2022
+CUS00655,Ben Davies,user654@example.com,07144 305989,1982-12-27,B2 4QA,sme,3,25/02/2022
+CUS00656,Leila Lewis,user655@example.com,07620 150181,04 Aug 1962,NW1 7AB,SME,2,2022-03-16
+CUS00657,Ben Lewis,user656@example.com,07517 927870,18/08/1979,CR0 2AB,Retail,4,30/03/2021
+CUS00658,Tom Walker,user657@example.com,07669 480224,27 Feb 1978,B2 4QA,Retail,4,22/07/2024
+CUS00659,Sara Lewis,user658@example.com,07373 111104,09 May 1968,CR0 2AB,Small Business,5,27 Dec 2020
+CUS00660,Jack Hughes,user659@example.com,07433 821571,04 Nov 1990,NW1 7AB,retail,3,16 Jan 2023
+CUS00661,Chloe Ahmadi,user660@example.com,07142 784840,15/02/1993,NW1 7AB,Retail,4,10/04/2024
+CUS00662,Farhan Lewis,user661@example.com,07564 670393,26/09/1998,B2 4QA,Retail,2,07/08/2025
+CUS00663,Hassan Hughes,user662@example.com,07388 675469,30/04/1982,B2 4QA,retail,1,2023-09-12
+CUS00664,Farhan Roberts,user663@example.com,07438 823819,09/12/1976,B2 4QA,retail,1,2022-12-25
+CUS00665,Grace Taylor,user664@example.com,07520 881471,2002-08-16,B2 4QA,Retail,5,17/08/2023
+CUS00666,Leila Khan,user665@example.com,07834 381637,22/10/1968,M1 1AE,SME,2,25/10/2022
+CUS00667,Nora Wright,user666@example.com,07508 542458,1996-03-12,CR0 2AB,Retail,2,17 Dec 2024
+CUS00668,Reza Ahmadi,user667@example.com,07425 666227,15 Apr 1971,M1 1AE,sme,3,26/11/2024
+CUS00669,Amira Walker,user668@example.com,07529 501579,1959-01-14,M1 1AE,sme,4,17/04/2025
+CUS00670,Hassan Patel,user669@example.com,07254 505880,19731130,M1 1AE,Retail,5,09/08/2021
+CUS00671,Grace Taylor,user670@example.com,07879 504136,08 Nov 1957,M1 1AE,Premier,2,18/09/2021
+CUS00672,Zahra Clarke,user671@example.com,07519 942797,31/12/2000,CR0 2AB,Small Business,1,12/01/2026
+CUS00673,Yusuf Green,user672@example.com,07246 765824,27/05/1981,B2 4QA,Retail,1,08 Jun 2022
+CUS00674,Ella Brown,user673@example.com,07105 350705,05/03/1951,NW1 7AB,sme,5,2024-11-09
+CUS00675,Amira Davies,user674@example.com,07722 625390,1970-02-10,CR0 2AB,sme,3,08 Jan 2025
+CUS00676,Daniel Green,user675@example.com,07360 827360,29 Dec 1973,LS1 4DY,Retail,3,2020-08-27
+CUS00677,Mohammed Evans,user676@example.com,07725 865457,1984-06-18,NW1 7AB,Premier,1,29/08/2022
+CUS00678,Amira Ahmadi,user677@example.com,07486 352457,14/01/1956,LS1 4DY,SME,1,2022-01-02
+CUS00679,Ben Evans,user678@example.com,07945 308059,30 Nov 1959,LS1 4DY,Retail,4,2024-07-17
+CUS00680,Ben Clarke,user679@example.com,07779 221808,24 Feb 1996,LS1 4DY,retail,3,2021-05-06
+CUS00681,Ben Clarke,user680@example.com,07188 984009,1951-12-25,LS1 4DY,Retail,2,2022-10-22
+CUS00682,Yusuf Smith,user681@example.com,07735 922049,10/05/1988,LS1 4DY,sme,2,2022-07-16
+CUS00683,Grace Clarke,user682@example.com,07134 851211,15 Jun 1964,M1 1AE,Premier,5,10/07/2021
+CUS00684,Nora Davies,user683@example.com,07150 525532,16 Jun 1999,B2 4QA,retail,1,2021-03-10
+CUS00685,Hassan Hughes,user684@example.com,07810 685649,19/11/1972,LS1 4DY,SME,4,2025-03-27
+CUS00686,Grace Davies,n/a,07432 818118,1964-03-10,B2 4QA,Retail,2,07/02/2024
+CUS00687,Ben Brown,user686@example.com,07761 563917,2002-10-20,M1 1AE,SME,1,31/10/2021
+CUS00688,Chloe Patel,user687@example.com,07662 800462,1964-05-11,M1 1AE,retail,2,25/07/2020
+CUS00689,Reza Davies,user688@example.com,07423 577620,13/04/2000,NW1 7AB,Premier,1,21 Jul 2023
+CUS00690,Ella Davies,user689@example.com,07691 100977,1998-10-08,LS1 4DY,SME,2,2025-08-29
+CUS00691,Grace Patel,user690@example.com,07584 882454,11/03/1971,NW1 7AB,Retail,2,11/04/2021
+CUS00692,Leila Roberts,user691@example.com,07762 994931,08 Jul 1950,LS1 4DY,Premier,1,19 Sep 2021
+CUS00693,Oliver Lewis,user692@example.com,07581 634909,31/08/1971,M1 1AE,retail,4,2025-12-13
+CUS00694,Amira Smith,user693@example.com,07450 721065,03 Nov 2002,NW1 7AB,Retail,5,15/05/2022
+CUS00695,Isla Patel,user694@example.com,07659 498346,26/09/1992,NW1 7AB,SME,1,2022-08-28
+CUS00696,Ben Smith,user695@example.com,07340 965065,23/05/1954,M1 1AE,SME,3,2021-05-22
+CUS00697,Leila Wright,user696@example.com,07744 929811,17/05/1953,NW1 7AB,Retail,4,14/07/2023
+CUS00698,Jack Ahmadi,user697@example.com,07861 497237,1967-10-14,NW1 7AB,Retail,3,09 Jul 2024
+CUS00699,Oliver Ahmadi,user698@example.com,07463 846767,03 Oct 1979,M1 1AE,sme,4,07/03/2023
+CUS00700,Oliver Davies,user699@example.com,07165 512639,27 Jan 1957,M1 1AE,sme,2,16/12/2024
+CUS00701,Mohammed Wright,user700@example.com,07638 379350,28/08/1956,CR0 2AB,Retail,4,2025-12-05
+CUS00702,Ben Hughes,user701@example.com,07727 791641,04/12/1971,NW1 7AB,Small Business,4,22/05/2024
+CUS00703,Chloe Patel,user702@example.com,07793 966331,1977-05-24,M1 1AE,Premier,2,16 Jan 2021
+CUS00704,Farhan Walker,user703@example.com,07429 175492,27/01/1996,LS1 4DY,SME,3,25 Jan 2026
+CUS00705,Amira Hughes,n/a,07743 936047,2002-09-01,LS1 4DY,Premier,4,2022-02-12
+CUS00706,Jack Brown,user705@example.com,07656 796508,1964-01-18,NW1 7AB,Small Business,4,28/01/2024
+CUS00707,Amira Smith,user706@example.com,07328 742271,24 Jul 1975,CR0 2AB,Retail,2,2024-03-12
+CUS00708,Reza Davies,user707@example.com,07883 377799,15/04/1954,M1 1AE,sme,5,25/01/2023
+CUS00709,Reza Green,user708@example.com,07368 981875,24/10/1995,LS1 4DY,Premier,1,20210409
+CUS00710,Reza Smith,user709@example.com,07584 999369,17/10/1968,B2 4QA,Retail,1,2025-06-20
+CUS00711,Sara Lewis,user710@example.com,07838 464671,16/03/1958,B2 4QA,retail,4,2025-10-25
+CUS00712,Yusuf Green,user711@example.com,07634 718126,27/04/1950,M1 1AE,Retail,5,20/05/2021
+CUS00713,Jack Hughes,user712@example.com,07588 698428,1959-01-22,M1 1AE,Retail,4,2022-05-05
+CUS00714,Hassan Wright,user713@example.com,07326 248991,07 Feb 1998,M1 1AE,Retail,1,02 Dec 2020
+CUS00715,Farhan Davies,user714@example.com,07167 894041,20 Jan 1980,NW1 7AB,Premier,1,09 Jul 2024
+CUS00716,Chloe Wright,user715@example.com,07641 481781,19691220,CR0 2AB,sme,2,07/03/2026
+CUS00717,Tom Davies,user716@example.com,07636 314791,1988-08-22,NW1 7AB,Small Business,3,05/03/2021
+CUS00718,Leila Smith,user717@example.com,07640 277348,27/04/1956,B2 4QA,Small Business,2,2020-12-25
+CUS00719,Daniel Taylor,user718@example.com,07932 483560,1973-08-10,NW1 7AB,retail,1,2025-03-11
+CUS00720,Nora Clarke,n/a,07344 806407,23/04/1984,CR0 2AB,retail,5,01 Feb 2021
+CUS00721,Oliver Ahmadi,user720@example.com,07276 259862,12/09/1972,M1 1AE,Small Business,4,24/06/2023
+CUS00722,Mohammed Hughes,user721@example.com,07941 793963,26 Jun 2000,LS1 4DY,Retail,4,01/04/2024
+CUS00723,Jack Lewis,user722@example.com,07571 286346,11/09/1955,LS1 4DY,SME,4,19/03/2021
+CUS00724,Oliver Green,user723@example.com,07755 967637,21/05/1961,B2 4QA,Retail,4,2023-05-22
+CUS00725,Nora Khan,user724@example.com,07976 783767,1989-03-27,NW1 7AB,Premier,2,2025-11-22
+CUS00726,Priya Evans,user725@example.com,07988 145360,1966-08-01,NW1 7AB,sme,5,01/06/2022
+CUS00727,Tom Brown,user726@example.com,07429 499782,20 Sep 1956,NW1 7AB,Retail,4,2026-02-12
+CUS00728,Mohammed Roberts,user727@example.com,07470 972541,15 Jul 1971,NW1 7AB,retail,4,2023-05-25
+CUS00729,Sara Evans,user728@example.com,07984 957494,21 Mar 1981,M1 1AE,Small Business,2,2021-04-04
+CUS00730,Priya Roberts,user729@example.com,07538 229010,26 Jun 1986,M1 1AE,SME,4,22/09/2022
+CUS00731,Farhan Wilson,user730@example.com,07519 261317,07/07/1964,M1 1AE,Premier,3,09 Oct 2025
+CUS00732,Priya Lewis,user731@example.com,07819 363697,1966-02-12,B2 4QA,Premier,5,31/05/2022
+CUS00733,Yusuf Khan,user732@example.com,07484 207796,18/10/1998,NW1 7AB,SME,1,01 Oct 2022
+CUS00734,Ella Roberts,user733@example.com,07473 473971,10 Dec 1963,CR0 2AB,SME,5,2022-04-04
+CUS00735,Priya Khan,user734@example.com,07778 942229,30/06/1960,M1 1AE,retail,5,09/05/2022
+CUS00736,Sara Hughes,user735@example.com,07635 646677,1958-04-02,CR0 2AB,Premier,2,23 Aug 2023
+CUS00737,Isla Patel,user736@example.com,07409 574800,23 Sep 1963,B2 4QA,retail,3,2026-03-17
+CUS00738,Zahra Evans,user737@example.com,07778 192274,22 Jul 1957,NW1 7AB,retail,3,25/06/2022
+CUS00739,Ella Khan,user738@example.com,07381 514762,26/02/2000,M1 1AE,Premier,2,12/10/2021
+CUS00740,Leila Smith,user739@example.com,07397 567876,06 Oct 2000,B2 4QA,sme,5,31/01/2022
+CUS00741,Farhan Khan,user740@example.com,07811 217229,16 Jul 1996,M1 1AE,Premier,2,04/07/2021
+CUS00742,Leila Hughes,user741@example.com,07560 765463,03/05/1961,CR0 2AB,Retail,2,2024-08-11
+CUS00743,Isla Davies,user742@example.com,07589 866172,21/11/1974,NW1 7AB,Retail,4,25/08/2023
+CUS00744,Farhan Davies,user743@example.com,07917 282990,19950317,M1 1AE,SME,4,13/09/2020
+CUS00745,Grace Taylor,user744@example.com,07877 642467,19 Aug 2003,CR0 2AB,Retail,5,12/10/2024
+CUS00746,Ella Evans,user745@example.com,07253 106207,29/09/1974,CR0 2AB,Retail,4,02/08/2023
+CUS00747,Jack Patel,user746@example.com,07796 236862,23/08/1983,M1 1AE,Retail,4,23 Aug 2024
+CUS00748,Oliver Lewis,user747@example.com,07475 612519,30 Oct 1995,NW1 7AB,Premier,5,02 Aug 2025
+CUS00749,Grace Davies,user748@example.com,07633 792337,1976-04-17,M1 1AE,retail,2,23/01/2022
+CUS00750,Daniel Lewis,user749@example.com,07343 752995,14/01/1973,NW1 7AB,Small Business,2,2022-02-06
+CUS00751,Grace Taylor,user750@example.com,07479 648810,22 Jul 1990,M1 1AE,sme,2,30/07/2025
+CUS00752,Priya Brown,user751@example.com,07448 940493,27 Oct 1990,NW1 7AB,SME,3,2023-10-24
+CUS00753,Amira Taylor,user752@example.com,07490 365149,09/08/1968,M1 1AE,Retail,3,13 Jan 2026
+CUS00754,Oliver Khan,user753@example.com,07118 683218,1972-12-13,M1 1AE,Small Business,1,25 Feb 2025
+CUS00755,Sara Patel,user754@example.com,07305 100847,22 Jun 1974,CR0 2AB,Retail,1,04 Dec 2025
+CUS00756,Priya Ahmadi,user755@example.com,07684 372280,09/05/1982,CR0 2AB,Small Business,3,26 Jan 2022
+CUS00757,Ella Lewis,user756@example.com,07159 719279,30 Jul 2004,NW1 7AB,Retail,1,16/11/2025
+CUS00758,Zahra Taylor,user757@example.com,07282 421430,28/07/1970,NW1 7AB,sme,4,04/05/2021
+CUS00759,Amira Khan,user758@example.com,07835 671117,28/09/1959,CR0 2AB,Small Business,2,2020-09-19
+CUS00760,Oliver Walker,user759@example.com,07381 439753,01/10/1993,M1 1AE,Premier,4,2022-04-20
+CUS00761,Hassan Khan,n/a,07361 353578,1974-03-18,B2 4QA,Small Business,4,2021-02-14
+CUS00762,Farhan Davies,n/a,07371 974660,07/10/1961,NW1 7AB,Retail,1,13/12/2023
+CUS00763,Priya Walker,user762@example.com,07548 195765,29/05/1989,CR0 2AB,sme,4,13/05/2021
+CUS00764,Leila Lewis,user763@example.com,07637 767044,05/03/1978,M1 1AE,Retail,1,21/01/2023
+CUS00765,Daniel Walker,user764@example.com,07605 193150,1964-02-27,CR0 2AB,Retail,5,25 Jul 2022
+CUS00766,Hassan Taylor,user765@example.com,07306 234532,06/01/1972,B2 4QA,sme,1,2021-05-15
+CUS00767,Farhan Lewis,user766@example.com,07533 930800,02/11/1954,NW1 7AB,SME,5,22 Jun 2021
+CUS00768,Oliver Wright,n/a,07397 747874,01 Sep 1963,M1 1AE,SME,4,13 Jul 2023
+CUS00769,Priya Ahmadi,n/a,07899 489670,08 Sep 1995,LS1 4DY,sme,2,16/05/2021
+CUS00770,Zahra Walker,user769@example.com,07144 852252,07 Jun 1989,B2 4QA,Small Business,1,13/09/2023
+CUS00771,Sara Green,user770@example.com,07553 493977,26/10/1951,CR0 2AB,Premier,5,2025-01-17
+CUS00772,Leila Ahmadi,user771@example.com,07475 143780,11 Jan 1984,M1 1AE,retail,2,15/04/2023
+CUS00773,Nora Wright,user772@example.com,07829 889678,26 Mar 1960,M1 1AE,retail,2,2022-08-07
+CUS00774,Daniel Brown,user773@example.com,07402 527739,16/05/1961,NW1 7AB,Retail,3,26/05/2024
+CUS00775,Isla Hughes,user774@example.com,07541 779672,23/07/1968,B2 4QA,SME,4,2021-07-16
+CUS00776,Farhan Hughes,user775@example.com,07722 950213,11/05/1976,CR0 2AB,sme,3,03/07/2025
+CUS00777,Sara Smith,user776@example.com,07362 469468,08 Dec 1970,CR0 2AB,retail,2,24/07/2020
+CUS00778,Daniel Wilson,user777@example.com,07344 504076,18 Nov 1960,NW1 7AB,sme,3,22/03/2024
+CUS00779,Tom Hughes,user778@example.com,07970 706811,1996-04-18,B2 4QA,Retail,5,11 Oct 2021
+CUS00780,Reza Ahmadi,user779@example.com,07232 748602,04/10/1995,B2 4QA,retail,2,2024-07-27
+CUS00781,Mohammed Roberts,user780@example.com,07296 993084,03/02/1969,CR0 2AB,Retail,5,11/04/2026
+CUS00782,Oliver Wilson,n/a,07828 708398,02/08/1982,LS1 4DY,SME,3,27/01/2024
+CUS00783,Grace Green,user782@example.com,07481 166433,29/05/1960,CR0 2AB,Retail,2,2025-09-03
+CUS00784,Nora Davies,user783@example.com,07781 312996,26/07/1971,M1 1AE,Small Business,1,16/01/2024
+CUS00785,Zahra Smith,user784@example.com,07437 174218,08/11/1971,CR0 2AB,Premier,2,2021-06-14
+CUS00786,Ben Lewis,user785@example.com,07181 892763,04 Nov 1983,NW1 7AB,Retail,3,20210628
+CUS00787,Isla Taylor,user786@example.com,07556 497832,24/02/1974,M1 1AE,Retail,5,15/09/2022
+CUS00788,Nora Brown,user787@example.com,07502 651357,1991-12-20,M1 1AE,Retail,1,13 Sep 2022
+CUS00789,Amira Clarke,user788@example.com,07524 620722,14/02/1984,CR0 2AB,Retail,1,25/12/2023
+CUS00790,Oliver Walker,user789@example.com,07758 893810,04/10/2003,CR0 2AB,Small Business,3,24/06/2022
+CUS00791,Mohammed Lewis,user790@example.com,07910 126832,1964-05-03,LS1 4DY,Small Business,1,16/01/2024
+CUS00792,Daniel Khan,user791@example.com,07210 721571,29/04/1973,CR0 2AB,Small Business,5,2024-12-17
+CUS00793,Jack Taylor,user792@example.com,07677 585009,28/02/1958,M1 1AE,sme,1,2021-04-27
+CUS00794,Sara Khan,user793@example.com,07573 834994,1950-03-12,B2 4QA,retail,1,03/07/2025
+CUS00795,Nora Wilson,user794@example.com,07959 557305,29/06/1966,CR0 2AB,Retail,4,2024-06-21
+CUS00796,Grace Green,user795@example.com,07524 596608,25 Oct 1986,NW1 7AB,SME,5,18/05/2023
+CUS00797,Ella Clarke,user796@example.com,07280 168257,17/03/1981,B2 4QA,SME,4,25 Aug 2021
+CUS00798,Grace Wright,user797@example.com,07550 516929,28/12/1958,NW1 7AB,retail,4,2026-02-21
+CUS00799,Tom Khan,user798@example.com,07603 241852,24/03/1960,LS1 4DY,Retail,3,26/08/2022
+CUS00800,Ella Smith,user799@example.com,07624 889368,12 Oct 1969,B2 4QA,SME,1,04/06/2024
+CUS00042,Chloe Clarke,user41@example.com,07125 458005,30/09/1953,B2 4QA,Premier,1,29/04/2025
