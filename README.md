@@ -35,7 +35,6 @@ ways, a customer exported twice. Two problems are hidden in it.
 - **Alerts:** both hidden problems caught — a burst of transactions at one branch (573 in a week against a normal
   97–187) and the overdue-invoice rate climbing past 25%.
 
-![The approved model](docs/2-map.png)
 
 A question becomes a **verified** answer when it's built from an approved metric. Here the tool also noticed that
 *branch* can be reached in two ways (the account's branch, or the customer's home branch) and says which one it used:
@@ -54,7 +53,7 @@ an API key. With a real key the AI's wording differs; the numbers come from SQL 
 Needs Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/<you>/tablewise.git
+git clone https://github.com/peyvandiizahra-pixel/tablewise.git
 cd tablewise
 pip install -e .
 tablewise demo                      # the finance demo
