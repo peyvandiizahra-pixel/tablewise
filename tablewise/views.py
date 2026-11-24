@@ -97,7 +97,7 @@ def column_sql(ontology, groups, t, c, sp):
         if native:
             expr = f"CAST(`{c}` AS FLOAT64)"
         else:
-            clean = f"REGEXP_REPLACE({text_sql(c)}, r'[£$€,\\s]', '')"
+            clean = f"REGEXP_REPLACE(REGEXP_REPLACE({text_sql(c)}, r'(?i)^(GBP|USD|EUR)', ''), r'[£$€,\\s]', '')"
             expr = f"SAFE_CAST(REGEXP_EXTRACT({clean}, r'^(-?[0-9]+(?:\\.[0-9]+)?)') AS FLOAT64)"
             factors = sp.get("unit_factors") or {}
             if factors:      # several units in one column: each value in the main unit ('2 hrs' -> 120 mins)
