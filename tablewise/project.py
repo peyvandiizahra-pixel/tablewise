@@ -140,7 +140,11 @@ class Project:
         for _, r in self.links.iterrows():
             key = (r["from"], r["to"])
             prev = saved.get(key)
-            approve = True if prev else False if key in rejected else r.status == "strong"
+            # pre-ticked: strong links, and links that match fully once case/punctuation/zeros are ignored AND the AI
+            # agrees. You still see each one and can untick it.
+            sure = (r.status == "needs review" and r.get("ai_verdict") == "yes" and max(r.format_pct, r.zeros_pct) >= 99
+                    and not any("ambiguous" in f for f in r["flags"]))
+            approve = True if prev else False if key in rejected else (r.status == "strong" or sure)
             notes = list(r["flags"])
             if r.get("ai_verdict"):
                 notes.append(f"AI: {r['ai_verdict']} – {r.get('ai_reason', '')}")
